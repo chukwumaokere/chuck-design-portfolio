@@ -7,11 +7,11 @@
         <p class="pl-3  circular-font">Lets Work Together!</p>
     </button>
     <div class="absolute right-0">
-        <router-link to="/" class="circular-font light">All</router-link> |
-        <router-link to="/web" class="circular-font light">Web Projects</router-link> |
-        <router-link to="/mobile" class="circular-font light">Mobile Projects</router-link> |
-        <router-link to="/other" class="circular-font light">Other</router-link> |
-        <router-link to="/about" class="circular-font light">about</router-link> 
+        <router-link to="/" class="circular-font light">HOME</router-link> |
+        <router-link to="/web" class="circular-font light">WEB PROJECTS</router-link> |
+        <router-link to="/mobile" class="circular-font light">MOBILE PROJECTS</router-link> |
+        <router-link to="/other" class="circular-font light">SERVICES</router-link> |
+        <router-link to="/about" class="circular-font light">ABOUT</router-link> 
     </div>
   </div>
 </template>
