@@ -7,7 +7,7 @@
 export default {
   watch: {
     '$route' (to){
-      document.title = to.meta.title || "Chuck Okere Design Portfolio"
+      document.title = to.meta.title || "Chuck Okere's Design Portfolio"
     },
   },
   name: 'App',
