@@ -1,0 +1,423 @@
+let apps = [
+	{
+		placeholder_img: '../assets/socialitesblur.png', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: 'A social media aggregate site meant to bring all your social media feeds into one platforms', //short desc
+		tech: ['Expo'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Web App', 'Desktop', 'Tablet', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['React', 'JavaScript', 'JSX'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: ['../assets/socialitesblur.png',''], //urls to images in assets
+		role_desc: 'Solo passion project',
+		site_url: {
+			web: 'https://chukwumaokere.com/socialite/', //site url if applicable
+		},
+		git_repo: 'https://github.com/chukwumaokere/socialiteapp', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Hype Website',
+		desc: 'A hype website to get users interested and signed up for the Socialites App release and stay up to date with changes about the app. Built using the munchPHP framework I created.', //short desc
+		tech: ['munchPHP Framework'], //Expo, Ionic, Flutter
+		platforms: ['Desktop', 'Tablet', 'Website'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML', 'CSS', 'PHP', 'JavaScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'Solo passion project',
+		site_url: {
+			web: 'https://socialites.app/', //site url if applicable
+		},
+		git_repo: 'https://github.com/chukwumaokere/socialiteswebsite', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'FAP Portal App',
+		desc: 'A portal app for Florida Aluminum Products vendors to view their orders. The first production mobile app I ever created. It\'s an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017', //short desc
+		tech: ['Flutter'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular', 'Web App', 'PHP', 'Dart'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I created the entire mobile app from prototype to fully shipped on the app stores as Boru\'s first production mobile app',
+		site_url: {
+			apple: 'https://apps.apple.com/us/app/fap-portal/id1480496948', 
+			android: 'https://play.google.com/store/apps/details?id=com.boruapps.fapapp&hl=en_US&gl=US',
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/new-fap-mobile-app', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'MVA Diagnostics App',
+		desc: 'A service mobile app for MVA Diagnostics to log their syringes intake and run fluid tests using native barcode scanning technology. It\'s an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017', //short desc
+		tech: ['Flutter'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular', 'Web App', 'PHP', 'Dart'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I oversaw the development of this app. The majority was offloaded to the app development team I started within the company with 2 other developers. It was the start of Boru\'s app development team',
+		site_url: {
+			apple: 'https://apps.apple.com/ae/app/xqohm/id1486121327', 
+			android: 'https://play.google.com/store/apps/details?id=com.boruapps.mva&hl=en_US&gl=US',
+		},
+		git_repo: 'https://github.com/chukwumaokere/mva-app-flutter', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Exhibit-A-Generator',
+		desc: 'An application to streamline the creation of Exhibit A documents for the Sustainable Development department for the City of Chicago. Code was created using python and selenium to automatically enter data from various document types: i.e., spreadsheets and word documents', //short desc
+		tech: ['Electron', 'Selenium', 'BeautifulSoup'], //Expo, Ionic, Flutter
+		platforms: ['Desktop'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Python','HTML','JavaScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'Contracted work from an employee working for the City of Chicago',
+		site_url: {}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/exhibitagenerator', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Conveyor PD Home Assesment App',
+		desc: 'An app developed for Conveyor Property Development. They assess home development by taking various photos of rooms. This app has the functionality for service workers to view properties they have to work at for the day, one click turn by turn navigation to the property, ability to create service records on-site and upload photos for each room they\'re assessing, and view upcoming jobs on a calendar view. This app became the template we used to develop our future apps for other clients.', //short desc
+		tech: ['Ionic', 'Cordova'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular', 'PHP', 'TypeScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		videos: ['https://www.youtube.com/watch?v=BAscJwnGfjg', 'http://www.youtube.com/watch?v=ekl2z9gSGLo', 'http://www.youtube.com/watch?v=lKdOAUxiVLs', 'http://www.youtube.com/watch?v=BAscJwnGfjg']
+		role_desc: 'Solo passion project that turned into a template for our future apps. This is where I started really developing an eye for modern design language',
+		site_url: {}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/conveyor-app', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Drake Services App',
+		desc: 'A service app for Drake Services employees to generate service orders for on-site work that they do to radio equipment and lighting equipment across the nation. The users can take pictures of their service rendered and specify answers to questions on the detail view. They also have one click turn by turn navigation to the site.', //short desc
+		tech: ['Ionic', 'Cordova'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular', 'TypeScript', 'PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I grew our app development team to 4 members and oversaw the development as the Lead Developer and Product Designer of the app. I also did the graphics for the app store',
+		site_url: {
+			android: 'https://play.google.com/store/apps/details?id=com.boruapps.drake',
+			apple: 'https://apps.apple.com/au/app/drake-services/id1491982363',
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/drake-lighting-app', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'HSH Services App',
+		desc: 'Home Sweet Home (HSH) is a company that helps other businesses move locations, donate unneeded goods, office start ups, cleaning, basically a lot of office related logistics. They work with numerous contractors that help them get this work done. This app was made to facilitate their processes. It uses features similar to the Drake App I developed. This was the first time we integrated push notifications in an app as well, using google firebase.', //short desc
+		tech: ['Ionic', 'Cordova', 'Firebase'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular', 'TypeScript', 'PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I was the product designer on this app. I designed a new dashboard for better engagement from the contractors. I led sprints on the development process for this app.',
+		site_url: {
+			android: 'https://play.google.com/store/apps/details?id=com.boruapps.hsh',
+			apple: 'https://apps.apple.com/us/app/home-sweet-home-jobs/id1492615000',
+			web: ''
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/HSH-App', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites Mobile App',
+		desc: '', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: '',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+	},
+
+
+
+];
