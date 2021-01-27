@@ -12,12 +12,14 @@ let apps = [
 			web: 'https://chukwumaokere.com/socialite/', //site url if applicable
 		},
 		git_repo: 'https://github.com/chukwumaokere/socialiteapp', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
 		name: 'Socialites Hype Website',
 		desc: 'A hype website to get users interested and signed up for the Socialites App release and stay up to date with changes about the app. Built using the munchPHP framework I created.', //short desc
-		tech: ['munchPHP Framework'], //Expo, Ionic, Flutter
+		tech: ['munchPHP Framework', 'Bootstrap 4'], //Expo, Ionic, Flutter
 		platforms: ['Desktop', 'Tablet', 'Website'], //iOS, Android, Mobile, Tablet, Desktop, Web App
 		languages: ['HTML', 'CSS', 'PHP', 'JavaScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
@@ -26,14 +28,16 @@ let apps = [
 			web: 'https://socialites.app/', //site url if applicable
 		},
 		git_repo: 'https://github.com/chukwumaokere/socialiteswebsite', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
 		name: 'FAP Portal App',
 		desc: 'A portal app for Florida Aluminum Products vendors to view their orders. The first production mobile app I ever created. It\'s an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017', //short desc
-		tech: ['Flutter'], //Expo, Ionic, Flutter
+		tech: ['Flutter', 'Material Design'], //Expo, Ionic, Flutter
 		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: ['Angular', 'Web App', 'PHP', 'Dart'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		languages: ['Angular', 'Web App', 'PHP', 'Dart', 'AngularJS'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
 		role_desc: 'I created the entire mobile app from prototype to fully shipped on the app stores as Boru\'s first production mobile app',
 		site_url: {
@@ -41,12 +45,14 @@ let apps = [
 			android: 'https://play.google.com/store/apps/details?id=com.boruapps.fapapp&hl=en_US&gl=US',
 		}, //site url if applicable
 		git_repo: 'https://github.com/chukwumaokere/new-fap-mobile-app', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
 		name: 'MVA Diagnostics App',
 		desc: 'A service mobile app for MVA Diagnostics to log their syringes intake and run fluid tests using native barcode scanning technology. It\'s an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017', //short desc
-		tech: ['Flutter'], //Expo, Ionic, Flutter
+		tech: ['Flutter', 'Bootstrap 4'], //Expo, Ionic, Flutter
 		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
 		languages: ['Angular', 'Web App', 'PHP', 'Dart'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
@@ -56,39 +62,45 @@ let apps = [
 			android: 'https://play.google.com/store/apps/details?id=com.boruapps.mva&hl=en_US&gl=US',
 		},
 		git_repo: 'https://github.com/chukwumaokere/mva-app-flutter', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
 		name: 'Exhibit-A-Generator',
 		desc: 'An application to streamline the creation of Exhibit A documents for the Sustainable Development department for the City of Chicago. Code was created using python and selenium to automatically enter data from various document types: i.e., spreadsheets and word documents', //short desc
-		tech: ['Electron', 'Selenium', 'BeautifulSoup'], //Expo, Ionic, Flutter
+		tech: ['Electron', 'Selenium', 'BeautifulSoup', 'Bootstrap 5'], //Expo, Ionic, Flutter
 		platforms: ['Desktop'], //iOS, Android, Mobile, Tablet, Desktop, Web App
 		languages: ['Python','HTML','JavaScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
 		role_desc: 'Contracted work from an employee working for the City of Chicago',
 		site_url: {}, //site url if applicable
 		git_repo: 'https://github.com/chukwumaokere/exhibitagenerator', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
 		name: 'Conveyor PD Home Assesment App',
 		desc: 'An app developed for Conveyor Property Development. They assess home development by taking various photos of rooms. This app has the functionality for service workers to view properties they have to work at for the day, one click turn by turn navigation to the property, ability to create service records on-site and upload photos for each room they\'re assessing, and view upcoming jobs on a calendar view. This app became the template we used to develop our future apps for other clients.', //short desc
-		tech: ['Ionic', 'Cordova'], //Expo, Ionic, Flutter
+		tech: ['Ionic', 'Cordova', 'Bootstrap 5'], //Expo, Ionic, Flutter
 		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: ['Angular', 'PHP', 'TypeScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		languages: ['Angular', 'PHP', 'TypeScript', 'Angular 10'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
 		videos: ['https://www.youtube.com/watch?v=BAscJwnGfjg', 'http://www.youtube.com/watch?v=ekl2z9gSGLo', 'http://www.youtube.com/watch?v=lKdOAUxiVLs', 'http://www.youtube.com/watch?v=BAscJwnGfjg']
 		role_desc: 'Solo passion project that turned into a template for our future apps. This is where I started really developing an eye for modern design language',
 		site_url: {}, //site url if applicable
 		git_repo: 'https://github.com/chukwumaokere/conveyor-app', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
 		name: 'Drake Services App',
 		desc: 'A service app for Drake Services employees to generate service orders for on-site work that they do to radio equipment and lighting equipment across the nation. The users can take pictures of their service rendered and specify answers to questions on the detail view. They also have one click turn by turn navigation to the site.', //short desc
-		tech: ['Ionic', 'Cordova'], //Expo, Ionic, Flutter
+		tech: ['Ionic', 'Cordova', 'Bootstrap 5'], //Expo, Ionic, Flutter
 		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: ['Angular', 'TypeScript', 'PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		languages: ['Angular', 'TypeScript', 'PHP', 'Angular 10'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
 		role_desc: 'I grew our app development team to 4 members and oversaw the development as the Lead Developer and Product Designer of the app. I also did the graphics for the app store',
 		site_url: {
@@ -96,14 +108,16 @@ let apps = [
 			apple: 'https://apps.apple.com/au/app/drake-services/id1491982363',
 		}, //site url if applicable
 		git_repo: 'https://github.com/chukwumaokere/drake-lighting-app', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
-		name: 'HSH Services App',
+		name: 'Home Sweet Home Jobs App',
 		desc: 'Home Sweet Home (HSH) is a company that helps other businesses move locations, donate unneeded goods, office start ups, cleaning, basically a lot of office related logistics. They work with numerous contractors that help them get this work done. This app was made to facilitate their processes. It uses features similar to the Drake App I developed. This was the first time we integrated push notifications in an app as well, using google firebase.', //short desc
-		tech: ['Ionic', 'Cordova', 'Firebase'], //Expo, Ionic, Flutter
+		tech: ['Ionic', 'Cordova', 'Firebase', 'Bootstrap 5'], //Expo, Ionic, Flutter
 		platforms: ['iOS', 'Android', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: ['Angular', 'TypeScript', 'PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		languages: ['Angular', 'TypeScript', 'PHP', 'Angular 10'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
 		role_desc: 'I was the product designer on this app. I designed a new dashboard for better engagement from the contractors. I led sprints on the development process for this app.',
 		site_url: {
@@ -112,310 +126,350 @@ let apps = [
 			web: ''
 		}, //site url if applicable
 		git_repo: 'https://github.com/chukwumaokere/HSH-App', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
+		name: 'Sunergy Construction App',
+		desc: 'Sunergy Construction Inc. is a company from California that offers various services like fencing, solar panel installation, artificial turf laying, HVAC installation and more. They use contracted service workers to have these services done and this app was developed for their service workers to respond to service requests, setups and provide details about the work they\'ve done. ', //short desc
+		tech: ['Ionic', 'Cordova', 'Bootstrap 5'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Mobile'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular', 'TypeScript', 'PHP', 'Angular 10'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I used the previous apps I created in Ionic as templates to brand and quickly spin up this app to satisfy the clients needs. Our company really wanted to focus on reusable/modular phone apps to drive down our costs of development. So we often used the apps I created as a platform to create each of our apps.',
+		site_url: {
+			android: '',
+			apple: 'https://apps.apple.com/tt/app/sunergy-construction/id1543971279',
+			web: ''
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/sunergy-app', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'FAP Warehouse Management System',
+		desc: 'This web app was created for Florida Aluminum Products to manage their warehouse and check in products from PGT Industries.', //short desc
+		tech: ['Material Design', 'AngularJS'], //Expo, Ionic, Flutter
+		platforms: ['Desktop', 'Web App', 'Tablet'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML', 'CSS', 'JavaScript', 'PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I created the prototype in Figma, the UI and UX and lead the development team to create this desktop/tablet app using just HTML/CSS/JavaScript and PHP',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://devl06.borugroup.com/fapdev/warehouse'
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/new-fap-mobile-app.git', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'FAP Warehouse Barcode System',
+		desc: 'This app was created for Florida Aluminum Products warehouse manager to generate and assign barcode to new incoming assets to the company warehouse. They can assign barcodes to assets and it also includes a POS (point-of-sale) system to create sales orders on the fly.', //short desc
+		tech: ['Bootstrap 4', 'QuaggaJS for Barcode', 'Service Workers', 'Font Awesome 5'], //Expo, Ionic, Flutter
+		platforms: ['Mobile', 'Tablet', 'Desktop', 'Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular', 'Angular 10', 'TypeScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I prototyped the app as a proof of concept to show that mobile phones, webcams and 3rd party wireless barcode scanners on a web app to help with inventory management. I designed the layout and UI/UX and managed the team that developed this to completion. I was the Team Lead and Senior Developer in charge of fixing any issues when it came to integrating the QuaggaJS software and answering any questions about the software.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://devl06.borugroup.com/barcodes-ui'
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/fap-barcodes', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'SMS Messaging App',
+		desc: 'An app/web client that was created for Complete Ortho, a doctors office that uses telephony services to contact and interact with their customers. I created this software for them to manage their communications with customers. It integrates with Twilio to support calling, SMS/MMS and sending emails to the their contacts.', //short desc
+		tech: ['Twilio', 'ExpressJS', 'Axios', 'Socket.io', 'Localtunnel', 'Tailwind CSS', 'Concurrently', 'PHP'], //Expo, Ionic, Flutter
+		platforms: ['Desktop', 'Tablet', 'Web App', 'PWA'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Vue','JavaScript','ES6', 'PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I designed this layout and UX, pulling inspiration from various programs like Google\'s Messaging Web App, Facebook messenger, etc. This app uses a lot of new techniques that we hadn\'t used in our previous apps like interaction design and modern design principals on UI elements. This was the first shipped project that the company has that uses twilio. I built this as a passion project in my spare time before pitching and selling it to a client. I also used socket.io to develop in app messaging from server to client and client to client to update events that are taken on the app so that all users have a unified experience. This was a solution to help the business on its work-from-home initiative.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/sms-messaging-web-client', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Socialites School',
+		desc: 'A website run in Vue for the Bootcamp I teach. This website is made to give people information on the school and the programs we have to offer. This web app will also offer online training programs. It is going to incorporate teaching techniques like Duolingo and Leetcode courses.', //short desc
+		tech: ['Surge', 'Bulma CSS', 'Vue', 'Stripe', 'Vuex', 'Mailgun'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile', 'Desktop', 'Tablet'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Vue', 'JavaScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I developed this project as a part of my initiative to pay forward the opportunities that I have received. I usually offer free web development teaching services but I recently wanted to make the initative bigger so I started developing the foundations of a possible business to help spread the opportunities to others as well.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://ssdev.surge.sh/#/'
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/socialites-school', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '../assets/pinots-games-landing.png', //one image to show one card
+		name: 'pinots.games',
+		desc: 'Game Servers that are fine like wine. We work to give you the best deal for the best features - bar none. A website to advertise the various game servers services I offer and for users to create new servers, manage their servers/subscriptions and get assistance.', //short desc
+		tech: ['Sails.js', 'Stripe', 'Embedded Javascript'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile', 'Desktop', 'Tablet', 'Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['JavaScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I created the design and layout and UX. It uses Stripe for transcations and recurring payments. I created the service and the branding. It was a solo project.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://pinots.games/'
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/pinots.games', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Discovery App',
+		desc: 'A music discovery and music supporting platform. Its a web app for people to help their favorite artists, small or big, grow by supporting them with a subscription to the artist themselves it gives them access to behind the scenes music production videos, song ideas, a more personal connection to some of the artists people love and early releases/sneak peeks at what they\'re doing, whatever the artist(s) choose to share. They get to show their support by having a subscription badge on their profile and they can collect as many sub badges for all the artists they have and flaunt them on their page. It also helps people discover new artists big and small around their area. It was made originally for musical content creators to post their work and receive direct monetary support from fans via subscriptions and share various media with these fans. Theres a full music discovery page to help navigate and orient the user to more music to keep them engaged. Theres also a bigger social media element than what bandcamp offers. The creators can provide a slew of media forms for consumption and can more easily generate revenue for their work should they choose to monetize it.', //short desc
+		tech: ['React', 'Sails', 'Angular', 'Stripe', 'Adobe XD'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android', 'Mobile', 'Desktop', 'Tablet', 'Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['Angular 10', 'Sails.js', 'JavaScript', 'React'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I started the project and worked with a designer to design the screens and prototype in Adobe XD and track project in Trello. I was the project head. This app was developed in 3 different frameworks: React, Sails, Angular, to test their various responsiveness for this type of application. It was a personal project that I used to train a designer on design principals asnd using design software like Adobe XD and Figma',
+		site_url: {
+			android: '',
+			apple: '',
+			web: ''
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/discovery-sails', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Mortgage Leads App',
+		desc: 'This mobile and web app was created for MortgageLead.com to enable their business to sell mortgage leads they\'ve acquired and have in a database. This app was originally developed by Boru then handed off to another development team after its initial process.', //short desc
+		tech: ['Bootstrap', 'Bootstrap SPA', 'Zeplin'], //Expo, Ionic, Flutter
+		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I created this app as part of Boru\'s first web applications. It was built using javascript and bootstrap initially. Since the product was sold, the code is closed source.',
+		site_url: {
+			android: 'https://play.google.com/store/apps/details?id=com.suitedbpo.mortgageleadcom',
+			apple: 'https://apps.apple.com/us/app/mortgagelead-com/id1323138836',
+			web: 'https://devl06.borugroup.com/mortgageleads/login/'
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'MunchPHP Website',
+		desc: 'A website for the framework I created named munchPHP', //short desc
+		tech: ['munchPHP', 'Bootstrap', 'Font Awesome'], //Expo, Ionic, Flutter
+		platforms: ['Mobile', 'Desktop', 'Tablet', 'Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['PHP', 'JavaScript', 'HTML', 'CSS'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'A solo project I created to advertise a framework I created quickly create static webpages USING the framework that was developed.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://munchphp.com/'
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/munchphp.com', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Redstone - VtigerCRM Dark mode design',
+		desc: 'Redstone Capital, LLC requested that we create a fully custom layout for VtigerCRM to suit their needs and then they requested a dark mode version since Vtiger didn\'t natively offer a dark mode. So I custom created 2 dark mode themes: Slate Grey and Midnight Blue.', //short desc
+		tech: ['VtigerCRM', 'Bootstrap', 'Font Awesome'], //Expo, Ionic, Flutter
+		platforms: ['Desktop', 'Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML','CSS'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I am the designer on the project and continue to give design support on the layout and color scheme updates.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://devl06.borugroup.com/redstone/index.php'
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Various VtigerCRM Login Pages Design',
+		desc: 'We now give all our Vtiger clients custom login pages that are themed and branded based on their company.', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['Desktop', 'Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML','CSS'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I created the first login page redesign for the company and continue to deliver custom login pages that speak to the clients brand.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://sunergy.borugroup.com'
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '../assets/choice-health-dashboard.png', //one image to show one card
+		name: 'Choice Health Dashboard',
+		desc: 'The first dashboard initiative our company had after I showed them a demo dashboard created in react. We gave this client a simple view of some of their metrics. They can also export each view as a CSV, XLSX or PDF. Managers can drill down into each metric and see what results in the outcome. The dashboards also refresh automatically to fetch the latest data to make sure the viewer always has relatively-realtime data at hand. The Company has high profile secuirty since their data is sensitive so the sites are IP restricted, so please just enjoy the screenshots for now.', //short desc
+		tech: [], //Expo, Ionic, Flutter
+		platforms: ['Desktop', 'Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML', 'CSS', 'JavaScript', 'PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I supplied the original concept and another team handled the branding and color scheme. ',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://devl06.borugroup.com/choicehealth/salesboard/'
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'FAP Sales Dashboard',
+		desc: 'A dashboard that follows material design principals that was created for Florida Aluminum Products to view their sales numbers as a company, by agent, and by dealer. They can also export each graph/chart to various formats. Because the data is relevant to the company, login is required, so please jsut enjoy the screenshots for now.', //short desc
+		tech: ['Material Design', 'Font Awesome'], //Expo, Ionic, Flutter
+		platforms: ['Desktop','Mobile','Tablet','Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML','JavaScript','PHP'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I provided the layout as a product of one of my solo projects and we modified it to meet the clients needs. I managed the team that created this dashboard and the relevant APIs.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://devl06.borugroup.com/fapdev/dashboard/login.php'
+		}, //site url if applicable
+		git_repo: '', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Mock Dashboard in React',
 		desc: '', //short desc
 		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		platforms: [], //iOS, Android, Mobile, Tablet, Desktop, Web App
 		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
 		role_desc: '',
 		site_url: {
 			android: '',
 			apple: '',
-			web: ''
+			web: 'http://reactdash.chukwumaokere.com/'
 		}, //site url if applicable
 		git_repo: '', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
+		name: 'Mining Rig Rentals Mobile App',
+		desc: 'A mobile app for mining rig rentals a company that allows users to post their mining computers for rent and get a small cut of the coin that is acquired. I was reached out to to build a mobile app for users to easily use the features of the website on a mobile app.', //short desc
+		tech: ['Expo', 'React', 'MRR API', 'JSX', 'JavaScript'], //Expo, Ionic, Flutter
 		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
 		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
-		role_desc: '',
+		role_desc: 'Solo project as a proposal. I was reached out to to create a mockup app for initial review.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://www.miningrigrentals.com/'
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/miningrigrentals-app', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Choice Health Chat App',
+		desc: 'This is a chat app I built using just regular HTML/CSS so its agnostic from any framework, and can be dropped into place on any front end. It uses JavaScript and Socket.io on the backend to have real time communication and chat rooms and automatic connections to available agents. We also are working in a chat bot to handle any immediate inquiries. This chat isn\'t for regular B2C communications its actually an internal program for trainees to talk to agents that can answer questions within their Vtiger CRM system. The Company has high profile secuirty since their data is sensitive so the sites are IP restricted, so please just enjoy the screenshots for now.', //short desc
+		tech: ['Socket.io', 'VtigerCRM'], //Expo, Ionic, Flutter
+		platforms: ['Desktop','Mobile','Tablet','Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML', 'JavaScript', 'CSS'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'I created this as a proof of concept for a free version of the chat features that one can enable using Google Firebase\'s features.',
 		site_url: {
 			android: '',
 			apple: '',
 			web: ''
 		}, //site url if applicable
-		git_repo: '', //if public, git repo
+		git_repo: 'https://github.com/chukwumaokere/socketio-chatapp', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		name: 'Firebase Chat App',
+		desc: 'Solo project that I created using google firebase to create a live chat room with unlimited users and chat history and dark mode.', //short desc
+		tech: ['Google Firebase''], //Expo, Ionic, Flutter
+		platforms: ['Desktop','Mobile','Tablet','Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['HTML', 'CSS', 'JavaScript'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		images: [], //urls to images in assets
+		role_desc: 'Solo passion project to learn Firebases capabilities.',
+		site_url: {
+			android: '',
+			apple: '',
+			web: 'https://chukwumaokere.com/firebasetest'
+		}, //site url if applicable
+		git_repo: 'https://github.com/chukwumaokere/firebasetest', //if public, git repo
+		id: 0,
+		show: 1,
+	},
+	{
+		placeholder_img: '', //one image to show one card
+		name: 'Steam API Page',
+		desc: 'A simple project I did early on to learn interaction design and modal usage. All results link to the steam website', //short desc
+		tech: ['Steam API'], //Expo, Ionic, Flutter
+		platforms: ['Desktop','Mobile','Tablet','Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['PHP'. 'JavaScript','Bootstap'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
 		role_desc: '',
 		site_url: {
 			android: '',
 			apple: '',
-			web: ''
+			web: 'https://chukwumaokere.com/steamapi/'
 		}, //site url if applicable
-		git_repo: '', //if public, git repo
+		git_repo: 'https://github.com/chukwumaokere/steamapi', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 	{
 		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
+		name: 'OPHION ',
+		desc: 'The World\'s Best Employee Handler. Ophion was a solo passion project I created back in 2016 as a response to my mangers (at the time when I worked at Dick\'s Sporting Goods) complaining about their employee management software that they use and the complication of using it. This is really when I started learning to code and focus on intuitive design and user experience. The project stalled out as I started working in the field but still remains as a humble aspiration I had to make revolutionary software for multiple businesses. I was hoping to make this modular enough that multiple different companies would be able to sign up their stores and utilize the software as a service to better managing their employees and their needs. There is also a portal for employees to log in to manage their time slots, availability, request vacations and communicate with other employees directly in the web app. I designed this with an emphasis on dark mode first and company branding.', //short desc
+		tech: ['Semantic UI'], //Expo, Ionic, Flutter
+		platforms: ['Desktop','Mobile','Tablet','Web App'], //iOS, Android, Mobile, Tablet, Desktop, Web App
+		languages: ['PHP', 'JavaScript', 'HTML', 'CSS'], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
 		images: [], //urls to images in assets
-		role_desc: '',
+		role_desc: 'Solo passsion project',
 		site_url: {
 			android: '',
 			apple: '',
-			web: ''
+			web: 'http://ophion.chukwumaokere.com/'
 		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
-	},
-	{
-		placeholder_img: '', //one image to show one card
-		name: 'Socialites Mobile App',
-		desc: '', //short desc
-		tech: [], //Expo, Ionic, Flutter
-		platforms: ['iOS', 'Android'], //iOS, Android, Mobile, Tablet, Desktop, Web App
-		languages: [], //Angular 10, Vue 3, React, PHP, JavaScript, TypeScript, Dart
-		images: [], //urls to images in assets
-		role_desc: '',
-		site_url: {
-			android: '',
-			apple: '',
-			web: ''
-		}, //site url if applicable
-		git_repo: '', //if public, git repo
+		git_repo: 'https://github.com/chukwumaokere/OPHION-v4', //if public, git repo
+		id: 0,
+		show: 1,
 	},
 
 

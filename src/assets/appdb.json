@@ -1,0 +1,502 @@
+[
+	{
+		"placeholder_img": "../assets/socialitesblur.png", 
+		"name": "Socialites Mobile App",
+		"desc": "A social media aggregate site meant to bring all your social media feeds into one platforms", 
+		"tech": ["Expo"],
+		"platforms": ["iOS", "Android", "Web App", "Desktop", "Tablet", "Mobile"],
+		"languages": ["React", "JavaScript", "JSX"], 
+		"images": ["../assets/socialitesblur.png",""], 
+		"role_desc": "Solo passion project",
+		"site_url": {
+			"web": "https://chukwumaokere.com/socialite/"
+		},
+		"git_repo": "https://github.com/chukwumaokere/socialiteapp", 
+		"id": 0,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Socialites Hype Website",
+		"desc": "A hype website to get users interested and signed up for the Socialites App release and stay up to date with changes about the app. Built using the munchPHP framework I created.", 
+		"tech": ["munchPHP Framework", "Bootstrap 4"],
+		"platforms": ["Desktop", "Tablet", "Website"],
+		"languages": ["HTML", "CSS", "PHP", "JavaScript"], 
+		"images": [], 
+		"role_desc": "Solo passion project",
+		"site_url": {
+			"web": "https://socialites.app/" 
+		},
+		"git_repo": "https://github.com/chukwumaokere/socialiteswebsite", 
+		"id": 1,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "FAP Portal App",
+		"desc": "A portal app for Florida Aluminum Products vendors to view their orders. The first production mobile app I ever created. It's an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017", 
+		"tech": ["Flutter", "Material Design"],
+		"platforms": ["iOS", "Android", "Mobile"],
+		"languages": ["Angular", "Web App", "PHP", "Dart", "AngularJS"], 
+		"images": [], 
+		"role_desc": "I created the entire mobile app from prototype to fully shipped on the app stores as Boru's first production mobile app",
+		"site_url": {
+			"apple": "https://apps.apple.com/us/app/fap-portal/id1480496948", 
+			"android": "https://play.google.com/store/apps/details?id=com.boruapps.fapapp&hl=en_US&gl=US"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/new-fap-mobile-app", 
+		"id": 2,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "MVA Diagnostics App",
+		"desc": "A service mobile app for MVA Diagnostics to log their syringes intake and run fluid tests using native barcode scanning technology. It's an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017", 
+		"tech": ["Flutter", "Bootstrap 4"],
+		"platforms": ["iOS", "Android", "Mobile"],
+		"languages": ["Angular", "Web App", "PHP", "Dart"], 
+		"images": [], 
+		"role_desc": "I oversaw the development of this app. The majority was offloaded to the app development team I started within the company with 2 other developers. It was the start of Boru's app development team",
+		"site_url": {
+			"apple": "https://apps.apple.com/ae/app/xqohm/id1486121327", 
+			"android": "https://play.google.com/store/apps/details?id=com.boruapps.mva&hl=en_US&gl=US"
+		},
+		"git_repo": "https://github.com/chukwumaokere/mva-app-flutter", 
+		"id": 3,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Exhibit-A-Generator",
+		"desc": "An application to streamline the creation of Exhibit A documents for the Sustainable Development department for the City of Chicago. Code was created using python and selenium to automatically enter data from various document types: i.e., spreadsheets and word documents", 
+		"tech": ["Electron", "Selenium", "BeautifulSoup", "Bootstrap 5"],
+		"platforms": ["Desktop"],
+		"languages": ["Python","HTML","JavaScript"], 
+		"images": [], 
+		"role_desc": "Contracted work from an employee working for the City of Chicago",
+		"site_url": {}, 
+		"git_repo": "https://github.com/chukwumaokere/exhibitagenerator", 
+		"id": 4,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Conveyor PD Home Assesment App",
+		"desc": "An app developed for Conveyor Property Development. They assess home development by taking various photos of rooms. This app has the functionality for service workers to view properties they have to work at for the day, one click turn by turn navigation to the property, ability to create service records on-site and upload photos for each room they're assessing, and view upcoming jobs on a calendar view. This app became the template we used to develop our future apps for other clients.", 
+		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
+		"platforms": ["iOS", "Android", "Mobile"],
+		"languages": ["Angular", "PHP", "TypeScript", "Angular 10"], 
+		"images": [], 
+		"videos": ["https://www.youtube.com/watch?v=BAscJwnGfjg", "http://www.youtube.com/watch?v=ekl2z9gSGLo", "http://www.youtube.com/watch?v=lKdOAUxiVLs", "http://www.youtube.com/watch?v=BAscJwnGfjg"],
+		"role_desc": "Solo passion project that turned into a template for our future apps. This is where I started really developing an eye for modern design language",
+		"site_url": {}, 
+		"git_repo": "https://github.com/chukwumaokere/conveyor-app", 
+		"id": 5,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Drake Services App",
+		"desc": "A service app for Drake Services employees to generate service orders for on-site work that they do to radio equipment and lighting equipment across the nation. The users can take pictures of their service rendered and specify answers to questions on the detail view. They also have one click turn by turn navigation to the site.", 
+		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
+		"platforms": ["iOS", "Android", "Mobile"],
+		"languages": ["Angular", "TypeScript", "PHP", "Angular 10"], 
+		"images": [], 
+		"role_desc": "I grew our app development team to 4 members and oversaw the development as the Lead Developer and Product Designer of the app. I also did the graphics for the app store",
+		"site_url": {
+			"android": "https://play.google.com/store/apps/details?id=com.boruapps.drake",
+			"apple": "https://apps.apple.com/au/app/drake-services/id1491982363"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/drake-lighting-app", 
+		"id": 6,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Home Sweet Home Jobs App",
+		"desc": "Home Sweet Home (HSH) is a company that helps other businesses move locations, donate unneeded goods, office start ups, cleaning, basically a lot of office related logistics. They work with numerous contractors that help them get this work done. This app was made to facilitate their processes. It uses features similar to the Drake App I developed. This was the first time we integrated push notifications in an app as well, using google firebase.", 
+		"tech": ["Ionic", "Cordova", "Firebase", "Bootstrap 5"],
+		"platforms": ["iOS", "Android", "Mobile"],
+		"languages": ["Angular", "TypeScript", "PHP", "Angular 10"], 
+		"images": [], 
+		"role_desc": "I was the product designer on this app. I designed a new dashboard for better engagement from the contractors. I led sprints on the development process for this app.",
+		"site_url": {
+			"android": "https://play.google.com/store/apps/details?id=com.boruapps.hsh",
+			"apple": "https://apps.apple.com/us/app/home-sweet-home-jobs/id1492615000",
+			"web": ""
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/HSH-App", 
+		"id": 7,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Sunergy Construction App",
+		"desc": "Sunergy Construction Inc. is a company from California that offers various services like fencing, solar panel installation, artificial turf laying, HVAC installation and more. They use contracted service workers to have these services done and this app was developed for their service workers to respond to service requests, setups and provide details about the work they've done. ", 
+		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
+		"platforms": ["iOS", "Mobile"],
+		"languages": ["Angular", "TypeScript", "PHP", "Angular 10"], 
+		"images": [], 
+		"role_desc": "I used the previous apps I created in Ionic as templates to brand and quickly spin up this app to satisfy the clients needs. Our company really wanted to focus on reusable/modular phone apps to drive down our costs of development. So we often used the apps I created as a platform to create each of our apps.",
+		"site_url": {
+			"android": "",
+			"apple": "https://apps.apple.com/tt/app/sunergy-construction/id1543971279",
+			"web": ""
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/sunergy-app", 
+		"id": 8,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "", 
+		"name": "FAP Warehouse Management System",
+		"desc": "This web app was created for Florida Aluminum Products to manage their warehouse and check in products from PGT Industries.", 
+		"tech": ["Material Design", "AngularJS"],
+		"platforms": ["Desktop", "Web App", "Tablet"],
+		"languages": ["HTML", "CSS", "JavaScript", "PHP"], 
+		"images": [], 
+		"role_desc": "I created the prototype in Figma, the UI and UX and lead the development team to create this desktop/tablet app using just HTML/CSS/JavaScript and PHP",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://devl06.borugroup.com/fapdev/warehouse"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/new-fap-mobile-app.git", 
+		"id": 9,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "FAP Warehouse Barcode System",
+		"desc": "This app was created for Florida Aluminum Products warehouse manager to generate and assign barcode to new incoming assets to the company warehouse. They can assign barcodes to assets and it also includes a POS (point-of-sale) system to create sales orders on the fly.", 
+		"tech": ["Bootstrap 4", "QuaggaJS for Barcode", "Service Workers", "Font Awesome 5"],
+		"platforms": ["Mobile", "Tablet", "Desktop", "Web App"],
+		"languages": ["Angular", "Angular 10", "TypeScript"], 
+		"images": [], 
+		"role_desc": "I prototyped the app as a proof of concept to show that mobile phones, webcams and 3rd party wireless barcode scanners on a web app to help with inventory management. I designed the layout and UI/UX and managed the team that developed this to completion. I was the Team Lead and Senior Developer in charge of fixing any issues when it came to integrating the QuaggaJS software and answering any questions about the software.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://devl06.borugroup.com/barcodes-ui"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/fap-barcodes", 
+		"id": 10,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "", 
+		"name": "SMS Messaging App",
+		"desc": "An app/web client that was created for Complete Ortho, a doctors office that uses telephony services to contact and interact with their customers. I created this software for them to manage their communications with customers. It integrates with Twilio to support calling, SMS/MMS and sending emails to the their contacts.", 
+		"tech": ["Twilio", "ExpressJS", "Axios", "Socket.io", "Localtunnel", "Tailwind CSS", "Concurrently", "PHP"],
+		"platforms": ["Desktop", "Tablet", "Web App", "PWA"],
+		"languages": ["Vue","JavaScript","ES6", "PHP"], 
+		"images": [], 
+		"role_desc": "I designed this layout and UX, pulling inspiration from various programs like Google's Messaging Web App, Facebook messenger, etc. This app uses a lot of new techniques that we hadn't used in our previous apps like interaction design and modern design principals on UI elements. This was the first shipped project that the company has that uses twilio. I built this as a passion project in my spare time before pitching and selling it to a client. I also used socket.io to develop in app messaging from server to client and client to client to update events that are taken on the app so that all users have a unified experience. This was a solution to help the business on its work-from-home initiative.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": ""
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/sms-messaging-web-client", 
+		"id": 11,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Socialites School",
+		"desc": "A website run in Vue for the Bootcamp I teach. This website is made to give people information on the school and the programs we have to offer. This web app will also offer online training programs. It is going to incorporate teaching techniques like Duolingo and Leetcode courses.", 
+		"tech": ["Surge", "Bulma CSS", "Vue", "Stripe", "Vuex", "Mailgun"],
+		"platforms": ["iOS", "Android", "Mobile", "Desktop", "Tablet"],
+		"languages": ["Vue", "JavaScript"], 
+		"images": [], 
+		"role_desc": "I developed this project as a part of my initiative to pay forward the opportunities that I have received. I usually offer free web development teaching services but I recently wanted to make the initative bigger so I started developing the foundations of a possible business to help spread the opportunities to others as well.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://ssdev.surge.sh/#/"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/socialites-school", 
+		"id": 12,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "../assets/pinots-games-landing.png", 
+		"name": "pinots.games",
+		"desc": "Game Servers that are fine like wine. We work to give you the best deal for the best features - bar none. A website to advertise the various game servers services I offer and for users to create new servers, manage their servers/subscriptions and get assistance.", 
+		"tech": ["Sails.js", "Stripe", "Embedded Javascript"],
+		"platforms": ["iOS", "Android", "Mobile", "Desktop", "Tablet", "Web App"],
+		"languages": ["JavaScript"], 
+		"images": [], 
+		"role_desc": "I created the design and layout and UX. It uses Stripe for transcations and recurring payments. I created the service and the branding. It was a solo project.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://pinots.games/"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/pinots.games", 
+		"id": 13,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Discovery App",
+		"desc": "A music discovery and music supporting platform. Its a web app for people to help their favorite artists, small or big, grow by supporting them with a subscription to the artist themselves it gives them access to behind the scenes music production videos, song ideas, a more personal connection to some of the artists people love and early releases/sneak peeks at what they're doing, whatever the artist(s) choose to share. They get to show their support by having a subscription badge on their profile and they can collect as many sub badges for all the artists they have and flaunt them on their page. It also helps people discover new artists big and small around their area. It was made originally for musical content creators to post their work and receive direct monetary support from fans via subscriptions and share various media with these fans. Theres a full music discovery page to help navigate and orient the user to more music to keep them engaged. Theres also a bigger social media element than what bandcamp offers. The creators can provide a slew of media forms for consumption and can more easily generate revenue for their work should they choose to monetize it.", 
+		"tech": ["React", "Sails", "Angular", "Stripe", "Adobe XD"],
+		"platforms": ["iOS", "Android", "Mobile", "Desktop", "Tablet", "Web App"],
+		"languages": ["Angular 10", "Sails.js", "JavaScript", "React"], 
+		"images": [], 
+		"role_desc": "I started the project and worked with a designer to design the screens and prototype in Adobe XD and track project in Trello. I was the project head. This app was developed in 3 different frameworks: React, Sails, Angular, to test their various responsiveness for this type of application. It was a personal project that I used to train a designer on design principals asnd using design software like Adobe XD and Figma",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": ""
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/discovery-sails", 
+		"id": 14,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Mortgage Leads App",
+		"desc": "This mobile and web app was created for MortgageLead.com to enable their business to sell mortgage leads they've acquired and have in a database. This app was originally developed by Boru then handed off to another development team after its initial process.", 
+		"tech": ["Bootstrap", "Bootstrap SPA", "Zeplin"],
+		"platforms": ["iOS", "Android", "Mobile"],
+		"languages": [], 
+		"images": [], 
+		"role_desc": "I created this app as part of Boru's first web applications. It was built using javascript and bootstrap initially. Since the product was sold, the code is closed source.",
+		"site_url": {
+			"android": "https://play.google.com/store/apps/details?id=com.suitedbpo.mortgageleadcom",
+			"apple": "https://apps.apple.com/us/app/mortgagelead-com/id1323138836",
+			"web": "https://devl06.borugroup.com/mortgageleads/login/"
+		}, 
+		"git_repo": "", 
+		"id": 15,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "MunchPHP Website",
+		"desc": "A website for the framework I created named munchPHP", 
+		"tech": ["munchPHP", "Bootstrap", "Font Awesome"],
+		"platforms": ["Mobile", "Desktop", "Tablet", "Web App"],
+		"languages": ["PHP", "JavaScript", "HTML", "CSS"], 
+		"images": [], 
+		"role_desc": "A solo project I created to advertise a framework I created quickly create static webpages USING the framework that was developed.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://munchphp.com/"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/munchphp.com", 
+		"id": 16,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Redstone - VtigerCRM Dark mode design",
+		"desc": "Redstone Capital, LLC requested that we create a fully custom layout for VtigerCRM to suit their needs and then they requested a dark mode version since Vtiger didn't natively offer a dark mode. So I custom created 2 dark mode themes: Slate Grey and Midnight Blue.", 
+		"tech": ["VtigerCRM", "Bootstrap", "Font Awesome"],
+		"platforms": ["Desktop", "Web App"],
+		"languages": ["HTML","CSS"], 
+		"images": [], 
+		"role_desc": "I am the designer on the project and continue to give design support on the layout and color scheme updates.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://devl06.borugroup.com/redstone/index.php"
+		}, 
+		"git_repo": "", 
+		"id": 17,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Various VtigerCRM Login Pages Design",
+		"desc": "We now give all our Vtiger clients custom login pages that are themed and branded based on their company.", 
+		"tech": [],
+		"platforms": ["Desktop", "Web App"],
+		"languages": ["HTML","CSS"], 
+		"images": [], 
+		"role_desc": "I created the first login page redesign for the company and continue to deliver custom login pages that speak to the clients brand.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://sunergy.borugroup.com"
+		}, 
+		"git_repo": "", 
+		"id": 18,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "../assets/choice-health-dashboard.png", 
+		"name": "Choice Health Dashboard",
+		"desc": "The first dashboard initiative our company had after I showed them a demo dashboard created in react. We gave this client a simple view of some of their metrics. They can also export each view as a CSV, XLSX or PDF. Managers can drill down into each metric and see what results in the outcome. The dashboards also refresh automatically to fetch the latest data to make sure the viewer always has relatively-realtime data at hand. The Company has high profile secuirty since their data is sensitive so the sites are IP restricted, so please just enjoy the screenshots for now.", 
+		"tech": [],
+		"platforms": ["Desktop", "Web App"],
+		"languages": ["HTML", "CSS", "JavaScript", "PHP"], 
+		"images": [], 
+		"role_desc": "I supplied the original concept and another team handled the branding and color scheme. ",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://devl06.borugroup.com/choicehealth/salesboard/"
+		}, 
+		"git_repo": "", 
+		"id": 19,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "FAP Sales Dashboard",
+		"desc": "A dashboard that follows material design principals that was created for Florida Aluminum Products to view their sales numbers as a company, by agent, and by dealer. They can also export each graph/chart to various formats. Because the data is relevant to the company, login is required, so please jsut enjoy the screenshots for now.", 
+		"tech": ["Material Design", "Font Awesome"],
+		"platforms": ["Desktop","Mobile","Tablet","Web App"],
+		"languages": ["HTML","JavaScript","PHP"], 
+		"images": [], 
+		"role_desc": "I provided the layout as a product of one of my solo projects and we modified it to meet the clients needs. I managed the team that created this dashboard and the relevant APIs.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://devl06.borugroup.com/fapdev/dashboard/login.php"
+		}, 
+		"git_repo": "", 
+		"id": 20,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Mock Dashboard in React",
+		"desc": "", 
+		"tech": [],
+		"platforms": [],
+		"languages": [], 
+		"images": [], 
+		"role_desc": "",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "http://reactdash.chukwumaokere.com/"
+		}, 
+		"git_repo": "", 
+		"id": 21,
+		"show":0,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Mining Rig Rentals Mobile App",
+		"desc": "A mobile app for mining rig rentals a company that allows users to post their mining computers for rent and get a small cut of the coin that is acquired. I was reached out to to build a mobile app for users to easily use the features of the website on a mobile app.", 
+		"tech": ["Expo", "React", "MRR API", "JSX", "JavaScript"],
+		"platforms": ["iOS", "Android", "Mobile"],
+		"languages": [], 
+		"images": [], 
+		"role_desc": "Solo project as a proposal. I was reached out to to create a mockup app for initial review.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://www.miningrigrentals.com/"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/miningrigrentals-app", 
+		"id": 22,
+		"show":0,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Choice Health Chat App",
+		"desc": "This is a chat app I built using just regular HTML/CSS so its agnostic from any framework, and can be dropped into place on any front end. It uses JavaScript and Socket.io on the backend to have real time communication and chat rooms and automatic connections to available agents. We also are working in a chat bot to handle any immediate inquiries. This chat isn't for regular B2C communications its actually an internal program for trainees to talk to agents that can answer questions within their Vtiger CRM system. The Company has high profile secuirty since their data is sensitive so the sites are IP restricted, so please just enjoy the screenshots for now.", 
+		"tech": ["Socket.io", "VtigerCRM"],
+		"platforms": ["Desktop","Mobile","Tablet","Web App"],
+		"languages": ["HTML", "JavaScript", "CSS"], 
+		"images": [], 
+		"role_desc": "I created this as a proof of concept for a free version of the chat features that one can enable using Google Firebase's features.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": ""
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/socketio-chatapp", 
+		"id": 23,
+		"show":1,
+        "recent":1
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Firebase Chat App",
+		"desc": "Solo project that I created using google firebase to create a live chat room with unlimited users and chat history and dark mode.", 
+		"tech": ["Google Firebase"],
+		"platforms": ["Desktop","Mobile","Tablet","Web App"],
+		"languages": ["HTML", "CSS", "JavaScript"], 
+		"images": [], 
+		"role_desc": "Solo passion project to learn Firebases capabilities.",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://chukwumaokere.com/firebasetest"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/firebasetest", 
+		"id": 24,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "Steam API Page",
+		"desc": "A simple project I did early on to learn interaction design and modal usage. All results link to the steam website", 
+		"tech": ["Steam API"],
+		"platforms": ["Desktop","Mobile","Tablet","Web App"],
+		"languages": ["PHP", "JavaScript","Bootstap"], 
+		"images": [], 
+		"role_desc": "",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://chukwumaokere.com/steamapi/"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/steamapi", 
+		"id": 25,
+		"show":1,
+        "recent":0
+	},
+	{
+		"placeholder_img": "", 
+		"name": "OPHION ",
+		"desc": "The World's Best Employee Handler. Ophion was a solo passion project I created back in 2016 as a response to my mangers (at the time when I worked at Dick's Sporting Goods) complaining about their employee management software that they use and the complication of using it. This is really when I started learning to code and focus on intuitive design and user experience. The project stalled out as I started working in the field but still remains as a humble aspiration I had to make revolutionary software for multiple businesses. I was hoping to make this modular enough that multiple different companies would be able to sign up their stores and utilize the software as a service to better managing their employees and their needs. There is also a portal for employees to log in to manage their time slots, availability, request vacations and communicate with other employees directly in the web app. I designed this with an emphasis on dark mode first and company branding.", 
+		"tech": ["Semantic UI"],
+		"platforms": ["Desktop","Mobile","Tablet","Web App"],
+		"languages": ["PHP", "JavaScript", "HTML", "CSS"], 
+		"images": [], 
+		"role_desc": "Solo passsion project",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "http://ophion.chukwumaokere.com/"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/OPHION-v4", 
+		"id": 26,
+		"show":1,
+        "recent":0
+	}
+
+]

@@ -7,10 +7,10 @@
         <p class="pl-3 sm:pl-3 circular-font">Lets Work Together!</p>
     </button>
     <div class="gap-4 sm:block text-base sm:text-base sm:absolute sm:right-0">
-        <router-link to="/" class="circular-font light">HOME</router-link> |
-        <router-link to="/web" class="circular-font light">WEB PROJECTS</router-link> |
-        <router-link to="/mobile" class="circular-font light">MOBILE PROJECTS</router-link> |
-        <router-link to="/other" class="circular-font light">SERVICES</router-link> |
+       <!--  <router-link to="/" class="circular-font light">HOME</router-link> | -->
+        <router-link to="/web" class="circular-font light">PROJECTS</router-link> |
+        <!-- <router-link to="/mobile" class="circular-font light">MOBILE PROJECTS</router-link> | -->
+        <!-- <router-link to="/other" class="circular-font light">SERVICES</router-link> | -->
         <router-link to="/about" class="circular-font light">ABOUT</router-link> 
     </div>
   </div>
