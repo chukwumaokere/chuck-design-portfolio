@@ -1,6 +1,6 @@
 [
 	{
-		"placeholder_img": "../assets/socialitesblur.png", 
+		"placeholder_img": "images/socialitesblur.png", 
 		"name": "Socialites Mobile App",
 		"desc": "A social media aggregate site meant to bring all your social media feeds into one platforms", 
 		"tech": ["Expo"],
@@ -233,7 +233,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "../assets/pinots-games-landing.png", 
+		"placeholder_img": "images/pinots-games-landing.gif", 
 		"name": "pinots.games",
 		"desc": "Game Servers that are fine like wine. We work to give you the best deal for the best features - bar none. A website to advertise the various game servers services I offer and for users to create new servers, manage their servers/subscriptions and get assistance.", 
 		"tech": ["Sails.js", "Stripe", "Embedded Javascript"],
@@ -347,7 +347,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "../assets/choice-health-dashboard.png", 
+		"placeholder_img": "images/choice-health-dashboard.png", 
 		"name": "Choice Health Dashboard",
 		"desc": "The first dashboard initiative our company had after I showed them a demo dashboard created in react. We gave this client a simple view of some of their metrics. They can also export each view as a CSV, XLSX or PDF. Managers can drill down into each metric and see what results in the outcome. The dashboards also refresh automatically to fetch the latest data to make sure the viewer always has relatively-realtime data at hand. The Company has high profile secuirty since their data is sensitive so the sites are IP restricted, so please just enjoy the screenshots for now.", 
 		"tech": [],
