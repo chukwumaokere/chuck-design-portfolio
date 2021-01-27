@@ -5,16 +5,16 @@
         </div>
         <p class="py-10 text-xl sm:text-xl text-gray-400">A big list of some of the awesome projects I've created/shipped</p> 
         <ul class="flex flex-row items-center justify-center space-x-3 sm:space-x-20">
-            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white' : currentView == 'Recent'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('Recent')">
+            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white hover:text-white hover:bg-opacity-100' : currentView == 'Recent'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('Recent')">
                 <p>Recent Apps</p>
             </li>
-            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white' : currentView == 'Mobile'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('Mobile')">
+            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white hover:text-white hover:bg-opacity-100' : currentView == 'Mobile'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('Mobile')">
                 <p>Mobile Apps</p>
             </li>
-            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white' : currentView == 'Web App'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('Web App')">
+            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white hover:text-white hover:bg-opacity-100' : currentView == 'Web App'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('Web App')">
                 <p>Web Apps</p>
             </li>
-            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white' : currentView == 'All'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('All')">
+            <li :class="{'bg-green-500 bg-opacity-100 rounded px-3 py-1 sm:px-5 text-white hover:text-white hover:bg-opacity-100' : currentView == 'All'}" class="sm:text-lg whitespace-nowrap cursor-pointer transition-all ease-in hover:bg-green-500 hover:text-black hover:bg-opacity-20 sm:py-1 sm:px-3 hover:px-3 rounded" @click="changeProjects('All')">
                 <p class="">All ({{count}})</p>
             </li>
         </ul>
