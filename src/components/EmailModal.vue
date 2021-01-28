@@ -74,7 +74,7 @@
 <script>
 //require('dotenv').config();
 
-//const mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+//const mailgun = require('mailgun-js')({apiKey: mg_api_key, domain: mg_domain});
 
 export default {
     emits: ['close-modal'],
@@ -91,7 +91,7 @@ export default {
                     subject: subject,
                     text: body,
                 };
-                console.log(data);
+                console.log(data, mailgun);
                 //console.log('wil send!', data, api_key, domain);
                 /*
                 mailgun.messages().send(data, function(error, body){
