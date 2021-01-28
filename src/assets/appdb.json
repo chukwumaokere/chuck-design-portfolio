@@ -17,7 +17,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/socialites-hype-webpage.jpg", 
 		"name": "Socialites Hype Website",
 		"desc": "A hype website to get users interested and signed up for the Socialites App release and stay up to date with changes about the app. Built using the munchPHP framework I created.", 
 		"tech": ["munchPHP Framework", "Bootstrap 4"],
@@ -34,7 +34,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/fap-mobile-app-dashboard-view.png", 
 		"name": "FAP Portal App",
 		"desc": "A portal app for Florida Aluminum Products vendors to view their orders. The first production mobile app I ever created. It's an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017", 
 		"tech": ["Flutter", "Material Design"],
@@ -52,7 +52,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/mva-mobile-app-test-result.png", 
 		"name": "MVA Diagnostics App",
 		"desc": "A service mobile app for MVA Diagnostics to log their syringes intake and run fluid tests using native barcode scanning technology. It's an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017", 
 		"tech": ["Flutter", "Bootstrap 4"],
@@ -81,11 +81,11 @@
 		"site_url": {}, 
 		"git_repo": "https://github.com/chukwumaokere/exhibitagenerator", 
 		"id": 4,
-		"show":1,
+		"show":0,
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/conveyor-properties-categories.png", 
 		"name": "Conveyor PD Home Assesment App",
 		"desc": "An app developed for Conveyor Property Development. They assess home development by taking various photos of rooms. This app has the functionality for service workers to view properties they have to work at for the day, one click turn by turn navigation to the property, ability to create service records on-site and upload photos for each room they're assessing, and view upcoming jobs on a calendar view. This app became the template we used to develop our future apps for other clients.", 
 		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
@@ -101,7 +101,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/drake-app-list-view-light-1.png", 
 		"name": "Drake Services App",
 		"desc": "A service app for Drake Services employees to generate service orders for on-site work that they do to radio equipment and lighting equipment across the nation. The users can take pictures of their service rendered and specify answers to questions on the detail view. They also have one click turn by turn navigation to the site.", 
 		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
@@ -119,7 +119,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/hsh-mobile-app-dashboardview-darkmode.png", 
 		"name": "Home Sweet Home Jobs App",
 		"desc": "Home Sweet Home (HSH) is a company that helps other businesses move locations, donate unneeded goods, office start ups, cleaning, basically a lot of office related logistics. They work with numerous contractors that help them get this work done. This app was made to facilitate their processes. It uses features similar to the Drake App I developed. This was the first time we integrated push notifications in an app as well, using google firebase.", 
 		"tech": ["Ionic", "Cordova", "Firebase", "Bootstrap 5"],
@@ -138,7 +138,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/sunergy-app-detailview.png", 
 		"name": "Sunergy Construction App",
 		"desc": "Sunergy Construction Inc. is a company from California that offers various services like fencing, solar panel installation, artificial turf laying, HVAC installation and more. They use contracted service workers to have these services done and this app was developed for their service workers to respond to service requests, setups and provide details about the work they've done. ", 
 		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
@@ -157,7 +157,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/fap-warehouse-ui-mockup.png", 
 		"name": "FAP Warehouse Management System",
 		"desc": "This web app was created for Florida Aluminum Products to manage their warehouse and check in products from PGT Industries.", 
 		"tech": ["Material Design", "AngularJS"],
@@ -176,7 +176,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/fap-barcode-ui-listview.png", 
 		"name": "FAP Warehouse Barcode System",
 		"desc": "This app was created for Florida Aluminum Products warehouse manager to generate and assign barcode to new incoming assets to the company warehouse. They can assign barcodes to assets and it also includes a POS (point-of-sale) system to create sales orders on the fly.", 
 		"tech": ["Bootstrap 4", "QuaggaJS for Barcode", "Service Workers", "Font Awesome 5"],
@@ -195,7 +195,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/messaging-app-conversation.png", 
 		"name": "SMS Messaging App",
 		"desc": "An app/web client that was created for Complete Ortho, a doctors office that uses telephony services to contact and interact with their customers. I created this software for them to manage their communications with customers. It integrates with Twilio to support calling, SMS/MMS and sending emails to the their contacts.", 
 		"tech": ["Twilio", "ExpressJS", "Axios", "Socket.io", "Localtunnel", "Tailwind CSS", "Concurrently", "PHP"],
@@ -214,7 +214,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/socialites-school-hype-page-1.png", 
 		"name": "Socialites School",
 		"desc": "A website run in Vue for the Bootcamp I teach. This website is made to give people information on the school and the programs we have to offer. This web app will also offer online training programs. It is going to incorporate teaching techniques like Duolingo and Leetcode courses.", 
 		"tech": ["Surge", "Bulma CSS", "Vue", "Stripe", "Vuex", "Mailgun"],
@@ -252,7 +252,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/discoverme-create-account.png", 
 		"name": "Discovery App",
 		"desc": "A music discovery and music supporting platform. Its a web app for people to help their favorite artists, small or big, grow by supporting them with a subscription to the artist themselves it gives them access to behind the scenes music production videos, song ideas, a more personal connection to some of the artists people love and early releases/sneak peeks at what they're doing, whatever the artist(s) choose to share. They get to show their support by having a subscription badge on their profile and they can collect as many sub badges for all the artists they have and flaunt them on their page. It also helps people discover new artists big and small around their area. It was made originally for musical content creators to post their work and receive direct monetary support from fans via subscriptions and share various media with these fans. Theres a full music discovery page to help navigate and orient the user to more music to keep them engaged. Theres also a bigger social media element than what bandcamp offers. The creators can provide a slew of media forms for consumption and can more easily generate revenue for their work should they choose to monetize it.", 
 		"tech": ["React", "Sails", "Angular", "Stripe", "Adobe XD"],
@@ -271,7 +271,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/mortgagelead-hero-image.png", 
 		"name": "Mortgage Leads App",
 		"desc": "This mobile and web app was created for MortgageLead.com to enable their business to sell mortgage leads they've acquired and have in a database. This app was originally developed by Boru then handed off to another development team after its initial process.", 
 		"tech": ["Bootstrap", "Bootstrap SPA", "Zeplin"],
@@ -290,7 +290,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/munchphp-hero-banner.jpg", 
 		"name": "MunchPHP Website",
 		"desc": "A website for the framework I created named munchPHP", 
 		"tech": ["munchPHP", "Bootstrap", "Font Awesome"],
@@ -309,7 +309,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/redstone-darkmode-UI.png", 
 		"name": "Redstone - VtigerCRM Dark mode design",
 		"desc": "Redstone Capital, LLC requested that we create a fully custom layout for VtigerCRM to suit their needs and then they requested a dark mode version since Vtiger didn't natively offer a dark mode. So I custom created 2 dark mode themes: Slate Grey and Midnight Blue.", 
 		"tech": ["VtigerCRM", "Bootstrap", "Font Awesome"],
@@ -328,7 +328,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/conveyor-login.jpg", 
 		"name": "Various VtigerCRM Login Pages Design",
 		"desc": "We now give all our Vtiger clients custom login pages that are themed and branded based on their company.", 
 		"tech": [],
@@ -347,7 +347,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "images/project-images-unsorted/choice-health-dashboard.png", 
+		"placeholder_img": "images/project-images-unsorted/choicehealth-dashboard-2.png", 
 		"name": "Choice Health Dashboard",
 		"desc": "The first dashboard initiative our company had after I showed them a demo dashboard created in react. We gave this client a simple view of some of their metrics. They can also export each view as a CSV, XLSX or PDF. Managers can drill down into each metric and see what results in the outcome. The dashboards also refresh automatically to fetch the latest data to make sure the viewer always has relatively-realtime data at hand. The Company has high profile secuirty since their data is sensitive so the sites are IP restricted, so please just enjoy the screenshots for now.", 
 		"tech": [],
@@ -366,10 +366,10 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/fap-dashboard-1.png", 
 		"name": "FAP Sales Dashboard",
 		"desc": "A dashboard that follows material design principals that was created for Florida Aluminum Products to view their sales numbers as a company, by agent, and by dealer. They can also export each graph/chart to various formats. Because the data is relevant to the company, login is required, so please jsut enjoy the screenshots for now.", 
-		"tech": ["Material Design", "Font Awesome"],
+		"tech": ["Material Design", "Font Awesome", "Chartist.js"],
 		"platforms": ["Desktop","Mobile","Tablet","Web App"],
 		"languages": ["HTML","JavaScript","PHP"], 
 		"images": [], 
@@ -423,7 +423,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/choicehealth-chat-3.png", 
 		"name": "Choice Health Chat App",
 		"desc": "This is a chat app I built using just regular HTML/CSS so its agnostic from any framework, and can be dropped into place on any front end. It uses JavaScript and Socket.io on the backend to have real time communication and chat rooms and automatic connections to available agents. We also are working in a chat bot to handle any immediate inquiries. This chat isn't for regular B2C communications its actually an internal program for trainees to talk to agents that can answer questions within their Vtiger CRM system. The Company has high profile secuirty since their data is sensitive so the sites are IP restricted, so please just enjoy the screenshots for now.", 
 		"tech": ["Socket.io", "VtigerCRM"],
@@ -442,7 +442,7 @@
         "recent":1
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/firebasetest-app-1.png", 
 		"name": "Firebase Chat App",
 		"desc": "Solo project that I created using google firebase to create a live chat room with unlimited users and chat history and dark mode.", 
 		"tech": ["Google Firebase"],
@@ -461,7 +461,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/steamapi-main-page.jpg", 
 		"name": "Steam API Page",
 		"desc": "A simple project I did early on to learn interaction design and modal usage. All results link to the steam website", 
 		"tech": ["Steam API"],
@@ -480,7 +480,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/ophion-main-page.png", 
 		"name": "OPHION ",
 		"desc": "The World's Best Employee Handler. Ophion was a solo passion project I created back in 2016 as a response to my mangers (at the time when I worked at Dick's Sporting Goods) complaining about their employee management software that they use and the complication of using it. This is really when I started learning to code and focus on intuitive design and user experience. The project stalled out as I started working in the field but still remains as a humble aspiration I had to make revolutionary software for multiple businesses. I was hoping to make this modular enough that multiple different companies would be able to sign up their stores and utilize the software as a service to better managing their employees and their needs. There is also a portal for employees to log in to manage their time slots, availability, request vacations and communicate with other employees directly in the web app. I designed this with an emphasis on dark mode first and company branding.", 
 		"tech": ["Semantic UI"],
@@ -499,7 +499,7 @@
         "recent":0
 	},
 	{
-		"placeholder_img": "", 
+		"placeholder_img": "images/project-images-unsorted/tldr-main-2.png", 
 		"name": "TLDR",
 		"desc": "AI assemebed bite-sized news", 
 		"tech": ["Materialize"],

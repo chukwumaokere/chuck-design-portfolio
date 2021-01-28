@@ -1,7 +1,7 @@
 <template>
-  <div class="ml-0 w-24 sm:w-52 bg-red-400 sm:bg-blue-400">
-      <img :src="project.placeholder_img && project.placeholder_img != '' ? project.placeholder_img : asset_placeholder_img " class="w-full cursor-pointer" @click="openDetailsModal(project)" />
-      <!-- {{project.id}} -->
+  <div class="ml-0 w-24 sm:w-52 bg-green-500 sm:bg-green-500 text-center rounded">
+        <img :src="project.placeholder_img && project.placeholder_img != '' ? project.placeholder_img : asset_placeholder_img " class="w-full cursor-pointer" @click="openDetailsModal(project.placeholder_img)" />
+        <span class="text-white">{{project.name}}</span>
   </div>
 </template>
 
@@ -18,7 +18,8 @@ export default {
     },
     methods: {
         openDetailsModal(project){
-            console.log('opening modal for', project)
+            //console.log('opening modal for', project)
+            window.open(project, "_blank")
         }
     }
 }

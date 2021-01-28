@@ -35,9 +35,19 @@ export default {
     },
     setup(){
         let allapps = apps.default;
+        let all_shown_apps = [];
         let selectedapps = ref([]);
         let count = allapps.length;
         let currentView = ref("Recent");
+
+        //init with only apps with show === 1
+        allapps.forEach(app => {
+            if(app.show === 1){
+                all_shown_apps.push(app);
+            }
+        })
+        //update count
+        count = all_shown_apps.length;
 
         //init with recent apps
         allapps.forEach(app => {
@@ -59,8 +69,15 @@ export default {
             this.currentView = type;
             if (type != 'Recent'){
                 if(type == "All"){
-                    this.selectedapps = this.allapps;
+                    //this.selectedapps = this.allapps;
                     //console.log('new list', this.selectedapps)
+                    this.selectedapps = [];
+                    this.allapps.forEach(app => {
+                        if(app.show === 1){
+                            this.selectedapps.push(app);
+                        }
+                    })
+                    //this.count = this.selectedapps.length;
                 }
                 if (type != "All"){
                     this.selectedapps = [];

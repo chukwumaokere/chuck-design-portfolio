@@ -3,6 +3,7 @@
         <div class="pb-10 sm:flex">
             <h1 class="circular-font text-4xl sm:text-4xl">About Me</h1>
         </div>
+        <p class="py-10 text-xl sm:text-xl text-gray-400">Information to contact me is in my resume above!</p> 
         <p class="text-base sm:text-lg text-black">I'm a pre-med student turned tech-enthusiast who loves wearing more hats than can fit on his head.
             If I could have a degree for learning, I would. 
             It gives me so much energy to learn something new and be able to apply it. 
