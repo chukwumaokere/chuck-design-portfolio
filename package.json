@@ -1,11 +1,13 @@
 {
   "name": "chuck-design-portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "surge-dev": "cd dist/ && surge --domain cokeredesign.surge.sh",
+    "surge-prod": "cd dist/ && surge --domain design.chukwumaokere.com"
   },
   "postcss": {
     "plugins": {
