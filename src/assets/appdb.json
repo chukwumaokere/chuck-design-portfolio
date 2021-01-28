@@ -206,7 +206,7 @@
 		"site_url": {
 			"android": "",
 			"apple": "",
-			"web": ""
+			"web": "https://co-sms-app.surge.sh/#/"
 		}, 
 		"git_repo": "https://github.com/chukwumaokere/sms-messaging-web-client", 
 		"id": 11,
