@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen w-screen flex z-10 bg-black dark:bg-opacity-60 bg-opacity-40 fixed top-0 left-0 p-10 sm:p-0">
+  <div class="h-screen w-screen flex z-10 bg-black dark:bg-opacity-60 bg-opacity-40 fixed overflow-auto top-0 left-0 p-10 sm:p-0">
       <div class="container m-auto h-auto sm:w-1/3 sm:h-auto bg-white rounded-xl p-5 sm:p-8 dark:bg-gray-700">
-        <div class="container h-full">
+        <div class="container h-auto">
             <button @click="emitCloseModal" class="float-right">
                 <svg class="w-6 h-6 dark:text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />

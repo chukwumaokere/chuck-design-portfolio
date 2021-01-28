@@ -1,6 +1,7 @@
 <template>
-<div class="p-10 sm:flex sm:container sm:flex-col sm:mx-auto h-screen sm:pt-16">
-  <Navbar class="mb-6 sm:mb-20" />
+<div class="p-10 sm:flex sm:container sm:flex-col sm:mx-0 sm:px-64 sm:w-full sm:max-w-full h-full sm:pt-16 bg-white dark:bg-gray-700">
+  <EmailModal :class="modal_hidden" @close-modal="hideEmailModal" />
+  <Navbar class="mb-6 sm:mb-20" @open-email-modal="showEmailModal"  @toggle-dark-mode="toggleDarkMode" />
   <Main id="main" class="mb-12 sm:mb-20"/>
   <Skills id="skills" class="mb-14 sm:mb-20"/>
   <Projects id="projects" class="mb-14 sm:mb-20"/>
