@@ -1,6 +1,6 @@
 {
   "name": "chuck-design-portfolio",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "dotenv": "^8.2.0",
     "form-data": "^3.0.0",
     "mailgun.js": "^3.1.2",
     "sweetalert2": "^10.14.0",
