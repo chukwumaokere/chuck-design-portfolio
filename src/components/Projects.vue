@@ -19,7 +19,7 @@
             </li>
         </ul>
         <div class="grid grid-cols-3 place-items-center gap-4 pt-5 sm:grid sm:grid-cols-4 sm:gap-0 sm:space-x-4 sm:pt-5 sm:place-items-center">
-            <ProjectCard v-for="project in selectedapps" :key="project.id" :project="project" />
+            <ProjectCard v-for="project in selectedapps" :key="project.id" :project="project" @open-photo-modal="openPhotoModal" />
         </div>
     </div>
 </template>
@@ -29,6 +29,7 @@ import * as apps from '@/assets/appdb.json';
 import ProjectCard from '@/components/ProjectCard';
 import {ref} from 'vue';
 export default {
+    emits: ['open-photo-modal'],
     components:{
         ProjectCard,
     },
@@ -95,6 +96,9 @@ export default {
                 //console.log('new list', this.selectedapps)
             }
         },
+        openPhotoModal(project){
+            this.$emit('open-photo-modal', project);
+        }
     }
 }
 </script>
