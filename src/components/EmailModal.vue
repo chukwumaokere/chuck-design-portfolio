@@ -72,9 +72,12 @@
 </template>
 
 <script>
-//require('dotenv').config();
-
-//const mailgun = require('mailgun-js')({apiKey: mg_api_key, domain: mg_domain});
+const formData = require('form-data');
+const Mailgun = require('mailgun.js');
+const mailgun = new Mailgun(formData);
+//need mailgun client
+//need domain
+import Swal from 'sweetalert2'
 
 export default {
     emits: ['close-modal'],
@@ -85,20 +88,32 @@ export default {
             let name = document.getElementById('name').value;
             let body = document.getElementById('body').value;
             if(body != '' && email != '' && subject != '' && name != ''){
+                let from_string = `${name} <${email}>`;
                 let data = {
-                    from: `${name} <${email}>`,
-                    to: 'chukwumaokere@yahoo.com',
+                    from: `postmaster@mg.socialites.app`,
+                    to: 'chukwumaokere@yahoo.com,chuckokere@socialites.app',
                     subject: subject,
-                    text: body,
+                    text: `${from_string}\n\n${body}`,
                 };
-                console.log(data);
-                //console.log('wil send!', data, api_key, domain);
-                /*
-                mailgun.messages().send(data, function(error, body){
-                    console.log(body);
-                    console.log(error);
-                })
-                */
+                //console.log(data, mg, this.mg, dm);
+                
+                mg.messages.create(dm, data).then(msg => {
+                    //console.log('message sent', msg);
+                    if(msg.message == 'Queued. Thank you.'){
+                        document.getElementById('email').value = '';
+                        document.getElementById('subject').value = '';
+                        document.getElementById('name').value = '';
+                        document.getElementById('body').value = '';
+                        this.emitCloseModal();
+                        Swal.fire('Thank You!', 'Your message has been sent.', 'success');    
+                    }else{
+                        //console.log('error received', msg.message);
+                        Swal.fire('Error', `Something went wrong. Please try again.\n${msg.message}`, 'error');
+                    }
+                }).catch(err => {
+                    //console.log('error received', err);
+                    Swal.fire('Error', `Something went wrong. Please try again.\n${err}`, 'error');
+                });
             }
             
         },

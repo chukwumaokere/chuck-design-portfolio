@@ -1,4 +1,10 @@
 <template>
+    <!-- <div class="h-screen w-screen flex z-10 bg-black bg-opacity-40 fixed top-0 left-0 p-10 sm:p-0">
+      <div class="container m-auto h-auto sm:w-1/3 sm:h-auto bg-white rounded-xl p-5 sm:p-8">
+        <div class="container h-full">
+        </div>
+      </div>
+    </div> -->
   <section class="mx-auto max-w-2xl">
     <h2 class="text-4xl text-center tracking-wide font-extrabold font-serif leading-loose mb-2">Slideshow Gallery</h2>
     <div class="shadow-2xl relative">
@@ -57,15 +63,12 @@ export default {
         //JS to switch slides and replace text in bar//
         var slideIndex = 1;
         showSlides(slideIndex);
-
         function plusSlides(n) {
         showSlides(slideIndex += n);
         }
-
         function currentSlide(n) {
         showSlides(slideIndex = n);
         }
-
         function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("mySlides");
@@ -96,19 +99,15 @@ export default {
   .image1 {
     content: url("https://randomwordgenerator.com/img/picture-generator/52e4d7434f51a914f1dc8460962e33791c3ad6e04e5074417d2c7ed09f4acc_640.jpg")
   }
-
   .image2 {
     content: url("https://randomwordgenerator.com/img/picture-generator/55e8d146425bb10ff3d8992cc12c30771037dbf852547848702a7fd19545_640.jpg")
   }
-
   .image3 {
     content: url("https://randomwordgenerator.com/img/picture-generator/55e8d24b4257ac14f1dc8460962e33791c3ad6e04e507440752972d3924cc6_640.jpg")
   }
-
   .image4 {
     content: url("https://randomwordgenerator.com/img/picture-generator/55e0d44b4b56a414f1dc8460962e33791c3ad6e04e5074417c2d78d2954bcd_640.jpg")
   }
-
   .image5 {
     content: url("https://randomwordgenerator.com/img/picture-generator/5ee3dc414954b10ff3d8992cc12c30771037dbf85254794e732f7ad7934e_640.jpg")
   }
