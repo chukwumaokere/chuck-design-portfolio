@@ -14,9 +14,10 @@
 import Navbar from '@/components/Navbar';
 import Main from '@/components/Main';
 import Skills from '@/components/Skills';
-import Projects from '@/components/Projects'
-import About from '@/components/About'
-
+import Projects from '@/components/Projects';
+import About from '@/components/About';
+import EmailModal from "@/components/EmailModal";
+import {ref} from 'vue';
 export default {
   name: 'Home',
   components: {
@@ -25,6 +26,49 @@ export default {
     Skills,
     Projects,
     About,
+    EmailModal,
+  },
+  setup(){
+    let modal_hidden = ref("hidden");
+    
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.querySelector('html').classList.add('dark')
+        localStorage.setItem('theme', 'dark');
+        console.log('setting theme to dark in localstorage');
+    } else {
+        document.querySelector('html').classList.remove('dark')
+        localStorage.setItem('theme', '');
+        console.log('setting theme to light in localstorage');
+    }
+    return {
+      modal_hidden,
+    }
+  },
+  methods: {
+    showEmailModal(){
+      if(this.modal_hidden == "hidden"){
+        //console.log('showing email modal');
+        this.modal_hidden = "block";
+      }
+    },
+    hideEmailModal(){
+      if(this.modal_hidden == "block"){
+        //console.log('hiding email modal');
+        this.modal_hidden = "hidden";
+      }
+    },
+    toggleDarkMode(){
+      if(localStorage.theme === 'dark'){
+          console.log('switching theme to white');
+          localStorage.setItem('theme', '');
+          document.querySelector('html').classList.remove('dark')
+      }else if(localStorage.theme===''){
+          console.log('switching theme to dark');
+          localStorage.setItem('theme', 'dark');
+          document.querySelector('html').classList.add('dark')
+      }
+    }
   }
 }
 </script>

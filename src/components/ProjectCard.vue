@@ -1,7 +1,7 @@
 <template>
   <div class="ml-0 w-24 sm:w-52 bg-green-500 sm:bg-green-500 text-center rounded">
         <img :src="project.placeholder_img && project.placeholder_img != '' ? project.placeholder_img : asset_placeholder_img " class="w-full cursor-pointer" @click="openImage(project.placeholder_img)" />
-        <span class="text-white">{{project.name}}</span>
+        <span class="text-white dark:text-gray-800">{{project.name}}</span>
   </div>
 </template>
 
@@ -28,5 +28,4 @@ export default {
 </script>
 
 <style>
-
 </style>

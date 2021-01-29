@@ -91,7 +91,7 @@ export default {
                     subject: subject,
                     text: body,
                 };
-                console.log(data, mailgun);
+                console.log(data);
                 //console.log('wil send!', data, api_key, domain);
                 /*
                 mailgun.messages().send(data, function(error, body){

@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col justify-center w-full mx-auto items-center sm:flex sm:flex-col sm:container sm:mx-auto sm:h-auto sm:items-center sm:justify-center sm:w-full">
         <div class="sm:flex">
-            <h1 class="circular-font text-4xl sm:text-4xl">Skills</h1>
+            <h1 class="circular-font text-4xl sm:text-4xl dark:text-white">Skills</h1>
         </div>
-        <p class="py-10 text-xl sm:text-xl text-gray-400">Over {{yeardiff}} years of experience prototyping, developing and shipping apps using various softare and languages professionally.</p> 
+        <p class="py-10 text-xl sm:text-xl text-gray-500 dark:text-gray-400">Over {{yeardiff}} years of experience prototyping, developing and shipping apps using various softare and languages professionally.</p> 
         <span class="grid grid-cols-4 place-items-center gap-4 sm:grid sm:grid-cols-8 sm:space-x-4 sm:pt-5">
             <img src="@/assets/Ai.png" />
             <!-- <img src="@/assets/Ae.png" />  -->
@@ -23,7 +23,7 @@
             <img src="@/assets/Python.png" width="70" /> 
             <img src="@/assets/Cpp.png" width="70"  />
         </span>
-        <p class="py-10 text-xl sm:text-xl text-gray-400">And others!</p> 
+        <p class="py-10 text-xl sm:text-xl text-gray-500 dark:text-gray-400">And others!</p> 
     </div>
 </template>
 
@@ -44,7 +44,6 @@ export default {
             var startYear = startDate.getFullYear();
             var february = (startYear % 4 === 0 && startYear % 100 !== 0) || startYear % 400 === 0 ? 29 : 28;
             var daysInMonth = [31, february, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-
             var yearDiff = endDate.getFullYear() - startYear;
             var monthDiff = endDate.getMonth() - startDate.getMonth();
             if (monthDiff < 0) {

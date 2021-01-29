@@ -2,18 +2,18 @@
     <div class="landing sm:container sm:mx-auto sm:h-auto sm:items-center sm:justify-center">
         <div class="landingWrapper sm:w-full sm:flex">
             <div class="landingL sm:flex-none">
-                <h1 class="circular-font text-3xl sm:text-4xl">Chuck Okere.</h1>
-                <p class="text-xl sm:text-xl text-gray-400">Hi, my name is Chuck Okere.</p> 
-                <p class="text-xl pt-5 sm:pt-5 sm:text-xl text-gray-400">I can be your <span class="text-blue-500">UI/UX Designer</span>, <span class="text-purple-400"> Product Designer</span>, <span class="text-green-500">Full-Stack Developer</span>, and <span class="text-red-400">Solutions Architect</span>.</p>
-                <p class="text-base pt-5 sm:pt-5 sm:text-xl text-gray-400"> I excel in:</p>
-                <ul class="list-disc pt-3 sm:pt-3 sm:text-xl text-gray-400"> 
+                <h1 class="circular-font text-3xl sm:text-4xl dark:text-white">Chuck Okere.</h1>
+                <p class="text-xl sm:text-xl text-gray-500 dark:text-gray-400">Hi, my name is Chuck Okere.</p> 
+                <p class="text-xl pt-5 sm:pt-5 sm:text-xl text-gray-500 dark:text-gray-400 ">I can be your <span class="text-blue-500">UI/UX Designer</span>, <span class="text-purple-400"> Product Designer</span>, <span class="text-green-500">Full-Stack Developer</span>, and <span class="text-red-400">Solutions Architect</span>.</p>
+                <p class="text-base pt-5 sm:pt-5 sm:text-xl text-gray-500 dark:text-gray-400"> I excel in:</p>
+                <ul class="list-disc pt-3 sm:pt-3 sm:text-xl text-gray-500 dark:text-gray-400"> 
                     <li class="ml-10">Clean Code</li>
                     <li class="ml-10">Interaction Design</li>
                     <li class="ml-10">Accessible Design</li>
                     <li class="ml-10">Business Solutions</li>
                 </ul>
                 <div class="flex justify-center pt-10 sm:pt-24 sm:block ">
-                    <a href="/documents/Chukwuma-Okere-Resume.docx" @click="downloadCV" class="flex place-self-center sm:float-right px-4 py-3 sm:flex sm:px-5 sm:py-4 hover:shadow-lg shadow-md rounded transition ease-in duration-200 focus:outline-none px-3 hover:text-white text-white text-xl bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+                    <a href="/documents/Chukwuma-Okere-Resume.docx" @click="downloadCV" class="flex place-self-center sm:float-right px-4 py-3 sm:flex sm:px-5 sm:py-4 hover:shadow-lg shadow-md rounded transition ease-in duration-200 focus:outline-none hover:text-white text-white text-xl bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
                         <svg class="w-6 h-6 sm:w-7 sm:h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                         </svg>
