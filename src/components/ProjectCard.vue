@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-0 w-24 sm:w-52 bg-green-500 sm:bg-green-500 text-center rounded">
+  <div class="ml-0 w-24 sm:w-52 bg-green-500 dark:bg-green-400 text-center rounded">
         <img :src="project.placeholder_img && project.placeholder_img != '' ? project.placeholder_img : asset_placeholder_img " class="w-full cursor-pointer" @click="openDetailsModal(project)" />
         <span class="text-white dark:text-gray-800">{{project.name}}</span>
   </div>

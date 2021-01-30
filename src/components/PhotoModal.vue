@@ -1,65 +1,113 @@
 <template>
   <div class="h-screen w-screen flex z-10 bg-black dark:bg-opacity-60 bg-opacity-40 fixed overflow-auto top-0 left-0 p-10 sm:p-0">
-      <div class="container m-auto h-auto sm:w-auto sm:h-auto bg-white rounded-xl p-5 sm:p-8 dark:bg-gray-700">
-        <div class="container h-auto">
-            
+      <div class="container m-auto h-auto sm:my-16 sm:w-auto sm:h-auto bg-white rounded-xl p-5 sm:p-8 dark:bg-gray-700">
+        <div class="container h-full">        
             <div class="h-full relative">
               <button @click="closeModal" class="float-right">
                 <svg class="w-6 h-6 dark:text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
-            </button>
-                    <section class="mx-auto max-w-2xl">
-                      <h2 class="text-4xl text-center tracking-wide font-extrabold circular-font leading-loose mb-2 dark:text-gray-100">{{project.name}}</h2>
-                      <div class="shadow-2xl relative">
-                        <!-- large image on slides -->
-                        <div class="mySlides hidden">
-                          <div class="w-full object-cover"> 
-                            <img class="w-1/2" :src="project.placeholder_img" />
-                          </div>
-                        </div>
-                        <div class="mySlides hidden">
-                          <div class="image2 w-full object-cover"></div>
-                        </div>
-                        <div class="mySlides hidden">
-                          <div class="image3 w-full object-cover"></div>
-                        </div>
-                        <div class="mySlides hidden">
-                          <div class="image4 w-full object-cover"></div>
-                        </div>
-                        <div class="mySlides hidden">
-                          <div class="image5 w-full object-cover"></div>
-                        </div>
+              </button>
+              <section class="mx-auto h-full flex sm:flex-col"> <!-- remove max-w-2x -->
+                <h2 class="text-4xl text-center tracking-wide font-extrabold circular-font leading-loose mb-2 dark:text-gray-100">{{project.name}}</h2>
+                <div class="h-full flex sm:flex-row">
+                  <div class="h-100 shadow-2xl relative">
 
-                        <!-- butttons -->
-                        <a class="absolute left-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(-1)">❮</a>
-                        <a class="absolute right-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(1)">❯</a>
-
-                        <!-- image description -->
-                        <div class="text-center text-white font-light tracking-wider bg-gray-800 py-2">
-                          <p id="caption" class="text-gray-200">{{project.placeholder_img}}</p>
-                        </div>
-
-                        <!-- smaller images under description -->
-                        <div class="flex">
-                          <div>
-                            <img class="image1 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(1)" :alt="project.placeholder_img">
-                          </div>
-                          <div>
-                            <img class="image2 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(2)" alt="Lawnmower">
-                          </div>
-                          <div>
-                            <img class="image3 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(3)" alt="Globe">
-                          </div>
-                          <div>
-                            <img class="image4 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(4)" alt="Optical Illusion">
-                          </div>
-                          <div>
-                            <img class="image5 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(5)" alt="Lips">
-                          </div>
-                        </div>
+                    <!-- large image on slides -->
+                    <div class="mySlides hidden">
+                      <div class="w-auto h-auto object-cover"> 
+                        <img class="max-w-full mx-auto" :src="project.placeholder_img" />
                       </div>
-                    </section>
+                    </div>
+                    <!--<MySlides v-for="(image, fake_key) in project.images" :image="image" :key="fake_key" />-->
+                    <div v-for="(image, key) in project.images"  :key="key" class="mySlides hidden">
+                        <div class="w-full object-cover"> 
+                            <img class="w-1/2" :src="image" />
+                        </div>
+                    </div>
+
+                    <!-- div class="mySlides hidden">
+                      <div class="w-full object-cover"> 
+                        <img class="w-1/2" :src="project.placeholder_img" />
+                      </div>
+                    </div> -->
+                    <!--
+                    <div class="mySlides hidden">
+                      <div class="image2 w-full object-cover"></div>
+                    </div>
+                    <div class="mySlides hidden">
+                      <div class="image3 w-full object-cover"></div>
+                    </div>
+                    <div class="mySlides hidden">
+                      <div class="image4 w-full object-cover"></div>
+                    </div>
+                    <div class="mySlides hidden">
+                      <div class="image5 w-full object-cover"></div>
+                    </div>
+                    -->
+
+                    <!-- butttons -->
+                    <a class="absolute left-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(-1)">❮</a>
+                    <a class="absolute right-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(1)">❯</a>
+
+                    <!-- image description -->
+                    <div class="text-center text-white font-light tracking-wider bg-gray-800 py-2">
+                      <p id="caption" class="text-gray-200">{{project.placeholder_img}}</p>
+                    </div>
+
+                    <!-- smaller images under description -->
+                    <!-- <div class="flex">
+                      
+                    </div> -->
+                    
+                    <div class="flex flex-row flex-wrap h-auto overflow-y-hidden">
+                      <div v-for="(image, key) in project.images" @click="currentSlide(key)" :key="key" >
+                          <img class="description h-24 opacity-50 hover:opacity-100 cursor-pointer" :src="image" :alt="image">
+                      </div>
+                      <div class="hidden">
+                        <img class="image1 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(1)" :alt="project.placeholder_img">
+                      </div>
+                      <!--
+                      <div>
+                        <img class="image2 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(2)" alt="Lawnmower">
+                      </div>
+                      <div>
+                        <img class="image3 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(3)" alt="Globe">
+                      </div>
+                      <div>
+                        <img class="image4 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(4)" alt="Optical Illusion">
+                      </div>
+                      <div>
+                        <img class="image5 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(5)" alt="Lips">
+                      </div> -->
+                    </div>
+                    
+                  </div>
+
+                  <div class="sm:ml-8 h-100 sm:max-w-xl relative flex flex-col">
+                    <div class="flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Tech Used: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-green-600 px-1 sm:px-2 rounded text-gray-200 sm:mr-3 sm:mb-2"  v-for="(tech_val, key) in project.tech" :key="key" >{{tech_val}}</span></div>
+                    </div>
+                    <br>
+                    <div class="flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Platforms: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-red-600 px-1 sm:px-2 rounded text-gray-200 sm:mr-3 sm:mb-2" v-for="(platform, key) in project.platforms" :key="key">{{platform}}</span></div>
+                    </div>
+                    <br>
+                    <div class="flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Languages: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-blue-600 px-1 sm:px-2 rounded text-gray-200 sm:mr-3 sm:mb-2" v-for="(language, key) in project.languages" :key="key">{{language}}</span></div>
+                    </div>
+
+                    <br>
+                    <span class="text-xl pb-2 dark:text-gray-50 sm:whitespace-nowrap">Product Description</span>
+                    <span class="dark:text-gray-200">{{project.desc}}</span>
+                    <br>
+                    <span class="text-xl pb-2 dark:text-gray-50">Role</span>
+                    <span class="dark:text-gray-200">{{project.role_desc}}</span>
+                    
+                  </div>
+                  
+                </div>
+              </section>
             </div>
         </div>
       </div>
@@ -68,9 +116,16 @@
 </template>
 
 <script>
-import { onMounted } from 'vue'
+import { onMounted } from 'vue';
+//import MySlides from "./MySlides";
+//import ImageUnderDesc from './ImageUnderDesc';
+
 export default {
   emits: ['close-modal'],
+  components: {
+    //MySlides,
+    //ImageUnderDesc
+  },
   props:{
     project: Object,
   },

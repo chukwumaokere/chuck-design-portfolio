@@ -201,7 +201,7 @@
 		"tech": ["Twilio", "ExpressJS", "Axios", "Socket.io", "Localtunnel", "Tailwind CSS", "Concurrently", "PHP"],
 		"platforms": ["Desktop", "Tablet", "Web App", "PWA"],
 		"languages": ["Vue","JavaScript","ES6", "PHP"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/messaging-app-conversation.png", "images/project-images-unsorted/messaging-app-darkmode-start.png", "images/project-images-unsorted/messaging-app-failed-to-find.png", "images/project-images-unsorted/messaging-app-failed-to-find-lightmode.png", "images/project-images-unsorted/messaging-app-found-contact.png", "images/project-images-unsorted/messaging-app-lightmode-convo.png", "images/project-images-unsorted/messaging-app-lightmode-start.png","images/project-images-unsorted/messaging-app-skeleton.png","images/project-images-unsorted/messaging-app-start-chatting.png"], 
 		"role_desc": "I designed this layout and UX, pulling inspiration from various programs like Google's Messaging Web App, Facebook messenger, etc. This app uses a lot of new techniques that we hadn't used in our previous apps like interaction design and modern design principals on UI elements. This was the first shipped project that the company has that uses twilio. I built this as a passion project in my spare time before pitching and selling it to a client. I also used socket.io to develop in app messaging from server to client and client to client to update events that are taken on the app so that all users have a unified experience. This was a solution to help the business on its work-from-home initiative.",
 		"site_url": {
 			"android": "",
