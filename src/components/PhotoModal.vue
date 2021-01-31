@@ -14,21 +14,15 @@
                   <div class="h-100 shadow-2xl relative">
 
                     <!-- large image on slides -->
-                    <div class="mySlides hidden">
-                      <div class="w-auto h-auto object-cover"> 
-                        <img class="max-w-full mx-auto cursor-pointer" :src="project.placeholder_img" @click="openImage(project.placeholder_img)" />
-                      </div>
-                    </div>
-                    <!--<MySlides v-for="(image, fake_key) in project.images" :image="image" :key="fake_key" />-->
                     <div v-for="(image, key) in project.images"  :key="key" class="mySlides hidden">
                         <div class="w-full object-cover"> 
-                            <img class="max-w-full mx-auto cursor-pointer" :src="image" @click="openImage(image)" />
+                            <img class="max-w-full mx-auto cursor-pointer" :src="image" @click="openImage(image)" :alt="image" />
                         </div>
                     </div>
 
                     <!-- butttons -->
-                    <a class="absolute left-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(-1)">❮</a>
-                    <a class="absolute right-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(1)">❯</a>
+                    <a class="absolute left-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold"  id="prevSlideButton">❮</a>
+                    <a class="absolute right-0 inset-y-20 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold"  id="nextSlideButton">❯</a>
 
                     <!-- image description -->
                     <div class="text-center text-white font-light tracking-wider bg-gray-800 py-2">
@@ -36,7 +30,7 @@
                     </div>
 
                     <!-- smaller images under description -->               
-                    <div class="flex flex-row flex-wrap h-auto overflow-y-hidden">
+                    <div class="flex flex-row flex-wrap  overflow-y-hidden h-1/3">
                       <div v-for="(image, key) in project.images" @click="currentSlide(key)" :key="key" >
                           <img class="description h-24 opacity-50 hover:opacity-100 cursor-pointer" :src="image" :alt="image">
                       </div>
@@ -83,7 +77,7 @@
 </template>
 
 <script>
-import { onMounted } from 'vue';
+import { onUpdated } from 'vue';
 
 export default {
   emits: ['close-modal'],
@@ -95,12 +89,22 @@ export default {
   },
     setup(){
 
-        onMounted(() =>{
+        onUpdated(() =>{
+          //JS to switch slides and replace text in bar//
             var slideIndex = 1;
             showSlides(slideIndex);
+            
             function plusSlides(n) {
               showSlides(slideIndex += n);
             }
+            
+           document.getElementById('prevSlideButton').onclick = () => {
+             plusSlides(-1);
+           }
+           document.getElementById('nextSlideButton').onclick = () => {
+             plusSlides(1);
+           }
+
             function currentSlide(n) {
               showSlides(slideIndex = n);
             }
@@ -108,7 +112,7 @@ export default {
               var i;
               var slides = document.getElementsByClassName("mySlides");
               var dots = document.getElementsByClassName("description");
-              //var captionText = document.getElementById("caption");
+              var captionText = document.getElementById("caption");
               if (n > slides.length) {
                   slideIndex = 1
               }
@@ -123,19 +127,16 @@ export default {
               }
               slides[slideIndex - 1].style.display = "block";
               dots[slideIndex - 1].className += " opacity-100";
-              //captionText.innerHTML = dots[slideIndex - 1].alt;
+              captionText.innerHTML = dots[slideIndex - 1].alt;
             }
 
           return{
             showSlides,
             currentSlide,
-            plusSlides,
           }
         })
-        //JS to switch slides and replace text in bar//
-        
-        return{
-        }
+  
+        return{}
     },
     methods: {
       closeModal(){

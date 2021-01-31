@@ -182,7 +182,7 @@
 		"tech": ["Bootstrap 4", "QuaggaJS for Barcode", "Service Workers", "Font Awesome 5"],
 		"platforms": ["Mobile", "Tablet", "Desktop", "Web App"],
 		"languages": ["Angular", "Angular 10", "TypeScript"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/fap-barcode-ui-listview.png", "images/project-images-unsorted/messaging-app-darkmode-start.png", "images/project-images-unsorted/messaging-app-failed-to-find.png", "images/project-images-unsorted/messaging-app-failed-to-find-lightmode.png", "images/project-images-unsorted/messaging-app-found-contact.png", "images/project-images-unsorted/messaging-app-lightmode-convo.png", "images/project-images-unsorted/messaging-app-lightmode-start.png","images/project-images-unsorted/messaging-app-skeleton.png","images/project-images-unsorted/messaging-app-start-chatting.png"], 
 		"role_desc": "I prototyped the app as a proof of concept to show that mobile phones, webcams and 3rd party wireless barcode scanners on a web app to help with inventory management. I designed the layout and UI/UX and managed the team that developed this to completion. I was the Team Lead and Senior Developer in charge of fixing any issues when it came to integrating the QuaggaJS software and answering any questions about the software.",
 		"site_url": {
 			"android": "",
