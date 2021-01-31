@@ -16,13 +16,13 @@
                     <!-- large image on slides -->
                     <div class="mySlides hidden">
                       <div class="w-auto h-auto object-cover"> 
-                        <img class="max-w-full mx-auto" :src="project.placeholder_img" />
+                        <img class="max-w-full mx-auto cursor-pointer" :src="project.placeholder_img" @click="openImage(project.placeholder_img)" />
                       </div>
                     </div>
                     <!--<MySlides v-for="(image, fake_key) in project.images" :image="image" :key="fake_key" />-->
                     <div v-for="(image, key) in project.images"  :key="key" class="mySlides hidden">
                         <div class="w-full object-cover"> 
-                            <img class="w-1/2" :src="image" />
+                            <img class="max-w-full mx-auto cursor-pointer" :src="image" @click="openImage(image)" />
                         </div>
                     </div>
 
@@ -48,24 +48,28 @@
                   </div>
 
                   <div class="sm:ml-8 h-100 sm:max-w-xl relative flex flex-col">
-                    <div class="flex sm:flex-row">
-                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Tech Used: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-green-600 px-1 sm:px-2 rounded text-gray-200 sm:mr-3 sm:mb-2"  v-for="(tech_val, key) in project.tech" :key="key" >{{tech_val}}</span></div>
-                    </div>
-                    <br>
-                    <div class="flex sm:flex-row">
-                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Platforms: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-red-600 px-1 sm:px-2 rounded text-gray-200 sm:mr-3 sm:mb-2" v-for="(platform, key) in project.platforms" :key="key">{{platform}}</span></div>
-                    </div>
-                    <br>
-                    <div class="flex sm:flex-row">
-                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Languages: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-blue-600 px-1 sm:px-2 rounded text-gray-200 sm:mr-3 sm:mb-2" v-for="(language, key) in project.languages" :key="key">{{language}}</span></div>
-                    </div>
-
-                    <br>
                     <span class="text-xl pb-2 dark:text-gray-50 sm:whitespace-nowrap">Product Description</span>
                     <span class="dark:text-gray-200">{{project.desc}}</span>
                     <br>
                     <span class="text-xl pb-2 dark:text-gray-50">Role</span>
                     <span class="dark:text-gray-200">{{project.role_desc}}</span>
+                    <br>
+                    <br>
+                    
+                    <div class="flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Tech Used: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-green-600 px-1 sm:px-2 rounded text-gray-100 sm:mr-3 sm:mb-2"  v-for="(tech_val, key) in project.tech" :key="key" >{{tech_val}}</span></div>
+                    </div>
+                    <br>
+                    <div class="flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Platforms: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-red-600 px-1 sm:px-2 rounded text-gray-100 sm:mr-3 sm:mb-2" v-for="(platform, key) in project.platforms" :key="key">{{platform}}</span></div>
+                    </div>
+                    <br>
+                    <div class="flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Languages: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-blue-600 px-1 sm:px-2 rounded text-gray-100 sm:mr-3 sm:mb-2" v-for="(language, key) in project.languages" :key="key">{{language}}</span></div>
+                    </div>
+
+                    
+                    
                     
                   </div>
                   
@@ -136,7 +140,10 @@ export default {
     methods: {
       closeModal(){
         this.$emit('close-modal');
-      }
+      },
+      openImage(src){
+        window.open(src, "_blank")  
+      },
     }
 }
 </script>
