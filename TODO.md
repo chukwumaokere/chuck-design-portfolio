@@ -8,3 +8,4 @@ add padding on textare on send messsage modal
 add HTTPS    
 Push changes to design site    
 Fix spacing of width of  text and my picture     
+~~alt, remove prefix of directory~~    

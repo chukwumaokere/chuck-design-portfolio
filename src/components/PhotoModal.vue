@@ -16,7 +16,7 @@
                     <!-- large image on slides -->
                     <div v-for="(image, key) in project.images"  :key="key" class="mySlides hidden">
                         <div class="w-full object-cover"> 
-                            <img class="max-w-full mx-auto cursor-pointer" :src="image" @click="openImage(image)" :alt="image" />
+                            <img class="max-w-full mx-auto cursor-pointer" :src="image" @click="openImage(image)" :alt="image.replace('images/project-images-unsorted/', '')" />
                         </div>
                     </div>
 
@@ -32,7 +32,7 @@
                     <!-- smaller images under description -->               
                     <div class="flex flex-row flex-wrap  overflow-y-hidden h-1/3">
                       <div v-for="(image, key) in project.images" @click="currentSlide(key)" :key="key" >
-                          <img class="description h-24 opacity-50 hover:opacity-100 cursor-pointer" :src="image" :alt="image">
+                          <img class="description h-24 opacity-50 hover:opacity-100 cursor-pointer" :src="image" :alt="image.replace('images/project-images-unsorted/', '')">
                       </div>
                       <div class="hidden">
                         <img class="image1 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" @click="currentSlide(1)" :alt="project.placeholder_img">
