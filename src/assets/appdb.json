@@ -6,7 +6,7 @@
 		"tech": ["Expo"],
 		"platforms": ["iOS", "Android", "Web App", "Desktop", "Tablet", "Mobile"],
 		"languages": ["React", "JavaScript", "JSX"], 
-		"images": ["../assets/socialitesblur.png",""], 
+		"images": ["images/project-images-unsorted/socialitesblur.png"], 
 		"role_desc": "Solo passion project",
 		"site_url": {
 			"web": "https://chukwumaokere.com/socialite/"
@@ -23,7 +23,7 @@
 		"tech": ["munchPHP Framework", "Bootstrap 4"],
 		"platforms": ["Desktop", "Tablet", "Website"],
 		"languages": ["HTML", "CSS", "PHP", "JavaScript"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/socialites-hype-webpage.jpg", "images/project-images-unsorted/socialitesblur.png","images/project-images-unsorted/socialites-mobile-app-webpage.png"], 
 		"role_desc": "Solo passion project",
 		"site_url": {
 			"web": "https://socialites.app/" 
@@ -40,7 +40,7 @@
 		"tech": ["Flutter", "Material Design"],
 		"platforms": ["iOS", "Android", "Mobile"],
 		"languages": ["Angular", "Web App", "PHP", "Dart", "AngularJS"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/fap-mobile-app-dashboard-view.png", "images/project-images-unsorted/fap-mobile-app-detail-view.png", "images/project-images-unsorted/fap-mobile-app-detail-view-1.png", "images/project-images-unsorted/fap-mobile-app-invoice-view.png", "images/project-images-unsorted/fap-mobile-app-new-ticket.png", "images/project-images-unsorted/fap-mobile-app-notifications.png", "images/project-images-unsorted/fap-mobile-app-on-iphone.png", "images/project-images-unsorted/fap-mobile-app-payment-popup.png", "images/project-images-unsorted/fap-mobile-app-profile-view.png", "images/project-images-unsorted/fap-mobile-app-screenshot.png", "images/project-images-unsorted/fap-mobile-app-screenshot-1.png", "images/project-images-unsorted/fap-mobile-app-screenshot-notification.png"], 
 		"role_desc": "I created the entire mobile app from prototype to fully shipped on the app stores as Boru's first production mobile app",
 		"site_url": {
 			"apple": "https://apps.apple.com/us/app/fap-portal/id1480496948", 
@@ -58,7 +58,7 @@
 		"tech": ["Flutter", "Bootstrap 4"],
 		"platforms": ["iOS", "Android", "Mobile"],
 		"languages": ["Angular", "Web App", "PHP", "Dart"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/mva-mobile-app-test-result.png", "images/project-images-unsorted/mva-mobile-app-asset-list.png", "images/project-images-unsorted/mva-mobile-app-asset-list-2.png", "images/project-images-unsorted/mva-mobile-app-create-asset-modal.png", "images/project-images-unsorted/mva-mobile-app-init-page.png", "images/project-images-unsorted/mva-mobile-app-popup.png", "images/project-images-unsorted/mva-mobile-app-result.png", "images/project-images-unsorted/mva-mobile-app-test-result-page.png"], 
 		"role_desc": "I oversaw the development of this app. The majority was offloaded to the app development team I started within the company with 2 other developers. It was the start of Boru's app development team",
 		"site_url": {
 			"apple": "https://apps.apple.com/ae/app/xqohm/id1486121327", 
@@ -91,7 +91,7 @@
 		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
 		"platforms": ["iOS", "Android", "Mobile"],
 		"languages": ["Angular", "PHP", "TypeScript", "Angular 10"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/conveyor-properties-categories.png", "images/project-images-unsorted/conveyor-properties-view.png"], 
 		"videos": ["https://www.youtube.com/watch?v=BAscJwnGfjg", "http://www.youtube.com/watch?v=ekl2z9gSGLo", "http://www.youtube.com/watch?v=lKdOAUxiVLs", "http://www.youtube.com/watch?v=BAscJwnGfjg"],
 		"role_desc": "Solo passion project that turned into a template for our future apps. This is where I started really developing an eye for modern design language",
 		"site_url": {}, 
@@ -107,7 +107,7 @@
 		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
 		"platforms": ["iOS", "Android", "Mobile"],
 		"languages": ["Angular", "TypeScript", "PHP", "Angular 10"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/drake-app-list-view-light-1.png", "images/project-images-unsorted/drake-app-calendar-popup.png", "images/project-images-unsorted/drake-app-calendar-view-daily.png", "images/project-images-unsorted/drake-app-calendar-view-daily-light.png", "images/project-images-unsorted/drake-app-calendar-view-weekly.png", "images/project-images-unsorted/drake-app-detail-view.png", "images/project-images-unsorted/drake-app-list-view.png", "images/project-images-unsorted/drake-app-list-view-light.png"], 
 		"role_desc": "I grew our app development team to 4 members and oversaw the development as the Lead Developer and Product Designer of the app. I also did the graphics for the app store",
 		"site_url": {
 			"android": "https://play.google.com/store/apps/details?id=com.boruapps.drake",
@@ -125,7 +125,7 @@
 		"tech": ["Ionic", "Cordova", "Firebase", "Bootstrap 5"],
 		"platforms": ["iOS", "Android", "Mobile"],
 		"languages": ["Angular", "TypeScript", "PHP", "Angular 10"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/hsh-mobile-app-dashboardview-darkmode.png", "images/project-images-unsorted/hsh-mobile-app-detailview-darkmode.png", "images/project-images-unsorted/hsh-mobile-app-notifications.png", "images/project-images-unsorted/hsh-notifications-screen-invites.png"], 
 		"role_desc": "I was the product designer on this app. I designed a new dashboard for better engagement from the contractors. I led sprints on the development process for this app.",
 		"site_url": {
 			"android": "https://play.google.com/store/apps/details?id=com.boruapps.hsh",
@@ -144,7 +144,7 @@
 		"tech": ["Ionic", "Cordova", "Bootstrap 5"],
 		"platforms": ["iOS", "Mobile"],
 		"languages": ["Angular", "TypeScript", "PHP", "Angular 10"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/sunergy-app-detailview.png", "images/project-images-unsorted/sunergy-app-calendar-popup.png", "images/project-images-unsorted/sunergy-app-calendar-view.png", "images/project-images-unsorted/sunergy-app-detailview-array.png", "images/project-images-unsorted/sunergy-app-detailview-shutter.png", "images/project-images-unsorted/sunergy-app-list-view.png", "images/project-images-unsorted/sunergy-app-photo-checklist.png", "images/project-images-unsorted/sunergy-app-photo-checklist-1.png"], 
 		"role_desc": "I used the previous apps I created in Ionic as templates to brand and quickly spin up this app to satisfy the clients needs. Our company really wanted to focus on reusable/modular phone apps to drive down our costs of development. So we often used the apps I created as a platform to create each of our apps.",
 		"site_url": {
 			"android": "",
@@ -163,7 +163,7 @@
 		"tech": ["Material Design", "AngularJS"],
 		"platforms": ["Desktop", "Web App", "Tablet"],
 		"languages": ["HTML", "CSS", "JavaScript", "PHP"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/fap-warehouse-ui-mockup.png", "images/project-images-unsorted/fap-warehouse-ui-detailview.png", "images/project-images-unsorted/fap-warehouse-ui-login.png", "images/project-images-unsorted/fap-warehouse-ui-mockup-2-figma.png", "images/project-images-unsorted/fap-warehouse-ui-mockup-3-figma.png", "images/project-images-unsorted/fap-warehouse-ui-modal-popup.png", "images/project-images-unsorted/fap-warehouse-ui-popup-modal.png", "images/project-images-unsorted/fap-warehouse-ui-tablet-view.png" ], 
 		"role_desc": "I created the prototype in Figma, the UI and UX and lead the development team to create this desktop/tablet app using just HTML/CSS/JavaScript and PHP",
 		"site_url": {
 			"android": "",
@@ -182,7 +182,7 @@
 		"tech": ["Bootstrap 4", "QuaggaJS for Barcode", "Service Workers", "Font Awesome 5"],
 		"platforms": ["Mobile", "Tablet", "Desktop", "Web App"],
 		"languages": ["Angular", "Angular 10", "TypeScript"], 
-		"images": ["images/project-images-unsorted/fap-barcode-ui-listview.png", "images/project-images-unsorted/messaging-app-darkmode-start.png", "images/project-images-unsorted/messaging-app-failed-to-find.png", "images/project-images-unsorted/messaging-app-failed-to-find-lightmode.png", "images/project-images-unsorted/messaging-app-found-contact.png", "images/project-images-unsorted/messaging-app-lightmode-convo.png", "images/project-images-unsorted/messaging-app-lightmode-start.png","images/project-images-unsorted/messaging-app-skeleton.png","images/project-images-unsorted/messaging-app-start-chatting.png"], 
+		"images": ["images/project-images-unsorted/fap-barcode-ui-listview.png", "images/project-images-unsorted/fap-barcode-ui-detailview.png", "images/project-images-unsorted/fap-barcode-ui-detailview-modal.png", "images/project-images-unsorted/fap-barcode-ui-listview-2.png"], 
 		"role_desc": "I prototyped the app as a proof of concept to show that mobile phones, webcams and 3rd party wireless barcode scanners on a web app to help with inventory management. I designed the layout and UI/UX and managed the team that developed this to completion. I was the Team Lead and Senior Developer in charge of fixing any issues when it came to integrating the QuaggaJS software and answering any questions about the software.",
 		"site_url": {
 			"android": "",
@@ -220,7 +220,7 @@
 		"tech": ["Surge", "Bulma CSS", "Vue", "Stripe", "Vuex", "Mailgun"],
 		"platforms": ["iOS", "Android", "Mobile", "Desktop", "Tablet"],
 		"languages": ["Vue", "JavaScript"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/socialites-school-hype-page-1.png", "images/project-images-unsorted/socialites-school-hype-404.png", "images/project-images-unsorted/socialites-school-hype-page-2.png", "images/project-images-unsorted/socialites-school-hype-page-3.png", "images/project-images-unsorted/socialites-school-hype-page-4.png"], 
 		"role_desc": "I developed this project as a part of my initiative to pay forward the opportunities that I have received. I usually offer free web development teaching services but I recently wanted to make the initative bigger so I started developing the foundations of a possible business to help spread the opportunities to others as well.",
 		"site_url": {
 			"android": "",
@@ -239,7 +239,7 @@
 		"tech": ["Sails.js", "Stripe", "Embedded Javascript"],
 		"platforms": ["iOS", "Android", "Mobile", "Desktop", "Tablet", "Web App"],
 		"languages": ["JavaScript"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/pinots-games-landing.gif", "images/project-images-unsorted/pinots-games-products-screens.png", "images/project-images-unsorted/pinots-games-server-detail-view.png"], 
 		"role_desc": "I created the design and layout and UX. It uses Stripe for transcations and recurring payments. I created the service and the branding. It was a solo project.",
 		"site_url": {
 			"android": "",
@@ -258,7 +258,7 @@
 		"tech": ["React", "Sails", "Angular", "Stripe", "Adobe XD"],
 		"platforms": ["iOS", "Android", "Mobile", "Desktop", "Tablet", "Web App"],
 		"languages": ["Angular 10", "Sails.js", "JavaScript", "React"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/discoverme-create-account.png", "images/project-images-unsorted/discoverme-artist-discography-mockup.png", "images/project-images-unsorted/discoverme-artist-discography-mockup-2.png", "images/project-images-unsorted/discoverme-figma-mockup.png", "images/project-images-unsorted/discoverme-login.png"], 
 		"role_desc": "I started the project and worked with a designer to design the screens and prototype in Adobe XD and track project in Trello. I was the project head. This app was developed in 3 different frameworks: React, Sails, Angular, to test their various responsiveness for this type of application. It was a personal project that I used to train a designer on design principals asnd using design software like Adobe XD and Figma",
 		"site_url": {
 			"android": "",
@@ -277,7 +277,7 @@
 		"tech": ["Bootstrap", "Bootstrap SPA", "Zeplin"],
 		"platforms": ["iOS", "Android", "Mobile"],
 		"languages": [], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/mortgagelead-hero-image.png", "images/project-images-unsorted/mortgagelead-app-transaction-fail.png", "images/project-images-unsorted/mortgagelead-desktop-search.png", "images/project-images-unsorted/mortgagelead-webapp-autoreload.png", "images/project-images-unsorted/mortgagelead-webapp-dashboard.png", "images/project-images-unsorted/mortgagelead-webapp-dashboard-1.png", "images/project-images-unsorted/mortgagelead-webapp-lead-detailview.png", "images/project-images-unsorted/mortgagelead-webapp-listview.png", "images/project-images-unsorted/mortgagelead-webapp-listview-1.png", "images/project-images-unsorted/mortgagelead-webapp-login-page.png", "images/project-images-unsorted/mortgagelead-webapp-mockup-dashboard.png", "images/project-images-unsorted/mortgagelead-webapp-new-lead-form.png", "images/project-images-unsorted/mortgagelead-webapp-transaction-success.png", "images/project-images-unsorted/mortgagelead-webpage-details.png", "images/project-images-unsorted/mortgagelead-webpage-details-2.png"], 
 		"role_desc": "I created this app as part of Boru's first web applications. It was built using javascript and bootstrap initially. Since the product was sold, the code is closed source.",
 		"site_url": {
 			"android": "https://play.google.com/store/apps/details?id=com.suitedbpo.mortgageleadcom",
@@ -296,7 +296,7 @@
 		"tech": ["munchPHP", "Bootstrap", "Font Awesome"],
 		"platforms": ["Mobile", "Desktop", "Tablet", "Web App"],
 		"languages": ["PHP", "JavaScript", "HTML", "CSS"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/munchphp-hero-banner.jpg"], 
 		"role_desc": "A solo project I created to advertise a framework I created quickly create static webpages USING the framework that was developed.",
 		"site_url": {
 			"android": "",
@@ -315,7 +315,7 @@
 		"tech": ["VtigerCRM", "Bootstrap", "Font Awesome"],
 		"platforms": ["Desktop", "Web App"],
 		"languages": ["HTML","CSS"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/redstone-darkmode-UI.png", "images/project-images-unsorted/redstone-darkmode-detailview.png", "images/project-images-unsorted/redstone-darkmode-detailview-slategrey.png", "images/project-images-unsorted/redstone-darkmode-midnightblue.png", "images/project-images-unsorted/redstone-darkmode-midnightblue-2.png", "images/project-images-unsorted/redstone-darkmode-midnightblue-comments-section.png", "images/project-images-unsorted/redstone-darkmode-midnightblue-comments-section-1.png", "images/project-images-unsorted/redstone-darkmode-slategrey.png", "images/project-images-unsorted/redstone-incoming-call-popup-ui.png"], 
 		"role_desc": "I am the designer on the project and continue to give design support on the layout and color scheme updates.",
 		"site_url": {
 			"android": "",
@@ -334,7 +334,7 @@
 		"tech": [],
 		"platforms": ["Desktop", "Web App"],
 		"languages": ["HTML","CSS"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/conveyor-login.jpg", "images/project-images-unsorted/first-boru-redesign.png", "images/project-images-unsorted/first-boru-redesign-1.png", "images/project-images-unsorted/sunery-login.jpg", "images/project-images-unsorted/dealstruck-login.jpg", "images/project-images-unsorted/fap-warehouse-ui-login.png", "images/project-images-unsorted/mortgagelead-webapp-login-page.png"], 
 		"role_desc": "I created the first login page redesign for the company and continue to deliver custom login pages that speak to the clients brand.",
 		"site_url": {
 			"android": "",
@@ -353,7 +353,7 @@
 		"tech": [],
 		"platforms": ["Desktop", "Web App"],
 		"languages": ["HTML", "CSS", "JavaScript", "PHP"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/choicehealth-dashboard-2.png", "images/project-images-unsorted/choicehealth-dashboard.png", "images/project-images-unsorted/choicehealth-dashboard-1.png", "images/project-images-unsorted/choicehealth-dashboard-3.png", "images/project-images-unsorted/choicehealth-dashboard-4.png", "images/project-images-unsorted/choicehealth-dashboard-5.png", "images/project-images-unsorted/choicehealth-dashboard-6.png"], 
 		"role_desc": "I supplied the original concept and another team handled the branding and color scheme. ",
 		"site_url": {
 			"android": "",
@@ -372,7 +372,7 @@
 		"tech": ["Material Design", "Font Awesome", "Chartist.js"],
 		"platforms": ["Desktop","Mobile","Tablet","Web App"],
 		"languages": ["HTML","JavaScript","PHP"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/fap-dashboard-1.png", "images/project-images-unsorted/fap-dashboard-2.png", "images/project-images-unsorted/fap-dashboard-3.png", "images/project-images-unsorted/fap-dashboard-4.png", "images/project-images-unsorted/fap-dashboard-5.png", "images/project-images-unsorted/fap-dashboard-6.png", "images/project-images-unsorted/fap-dashboard-7.png"], 
 		"role_desc": "I provided the layout as a product of one of my solo projects and we modified it to meet the clients needs. I managed the team that created this dashboard and the relevant APIs.",
 		"site_url": {
 			"android": "",
@@ -429,7 +429,7 @@
 		"tech": ["Socket.io", "VtigerCRM"],
 		"platforms": ["Desktop","Mobile","Tablet","Web App"],
 		"languages": ["HTML", "JavaScript", "CSS"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/choicehealth-chat-3.png", "images/project-images-unsorted/choicehealth-chat-1.png", "images/project-images-unsorted/choicehealth-chat-2.png", "images/project-images-unsorted/choicehealth-chat-4.png"], 
 		"role_desc": "I created this as a proof of concept for a free version of the chat features that one can enable using Google Firebase's features.",
 		"site_url": {
 			"android": "",
@@ -448,7 +448,7 @@
 		"tech": ["Google Firebase"],
 		"platforms": ["Desktop","Mobile","Tablet","Web App"],
 		"languages": ["HTML", "CSS", "JavaScript"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/firebasetest-app-1.png", "images/project-images-unsorted/firebasetest-app-2.png"], 
 		"role_desc": "Solo passion project to learn Firebases capabilities.",
 		"site_url": {
 			"android": "",
@@ -467,7 +467,7 @@
 		"tech": ["Steam API"],
 		"platforms": ["Desktop","Mobile","Tablet","Web App"],
 		"languages": ["PHP", "JavaScript","Bootstap"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/steamapi-main-page.jpg", "images/project-images-unsorted/steam-api-mainpage-hover-anim.jpg", "images/project-images-unsorted/steam-api-search-result.jpg"], 
 		"role_desc": "",
 		"site_url": {
 			"android": "",
@@ -486,7 +486,7 @@
 		"tech": ["Semantic UI"],
 		"platforms": ["Desktop","Mobile","Tablet","Web App"],
 		"languages": ["PHP", "JavaScript", "HTML", "CSS"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/ophion-employee-mainpage.png", "images/project-images-unsorted/ophion-employer-mainpage.png", "images/project-images-unsorted/ophion-login.png", "images/project-images-unsorted/ophion-main-page.png"], 
 		"role_desc": "Solo passsion project",
 		"site_url": {
 			"android": "",
@@ -505,7 +505,7 @@
 		"tech": ["Materialize"],
 		"platforms": ["Desktop","Mobile","Tablet","Web App", "Mobile"],
 		"languages": ["JavaScript", "HTML", "CSS"], 
-		"images": [], 
+		"images": ["images/project-images-unsorted/tldr-main.png", "images/project-images-unsorted/tldr-main-2.png"], 
 		"role_desc": "Solo passsion project",
 		"site_url": {
 			"android": "",
