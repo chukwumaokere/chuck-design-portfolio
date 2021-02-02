@@ -1,7 +1,7 @@
 <template>
     <div class="landing sm:container sm:mx-auto sm:h-auto sm:items-center sm:justify-center">
         <div class="landingWrapper sm:w-full sm:flex">
-            <div class="landingL sm:flex-none w-1/2">
+            <div class="landingL sm:flex-none sm:w-1/2">
                 <h1 class="circular-font text-3xl sm:text-4xl dark:text-white">Chuck Okere.</h1>
                 <p class="text-xl sm:text-xl text-gray-500 dark:text-gray-400">Hi, my name is Chuck Okere.</p> 
                 <p class="text-xl pt-5 sm:pt-5 sm:text-xl text-gray-500 dark:text-gray-400 ">I can be your <span class="text-blue-500">UI/UX Designer</span>, <span class="text-purple-400"> Product Designer</span>, <span class="text-green-500">Full-Stack Developer</span>, and <span class="text-red-400">Solutions Architect</span>.</p>
