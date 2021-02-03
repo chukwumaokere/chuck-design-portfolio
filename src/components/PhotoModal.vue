@@ -8,10 +8,10 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
-              <section class="mx-auto h-full flex sm:flex-col"> <!-- remove max-w-2x -->
-                <h2 class="text-4xl text-center tracking-wide font-extrabold circular-font leading-loose mb-2 dark:text-gray-100">{{project.name}}</h2>
-                <div class="h-full flex sm:flex-row">
-                  <div class="h-100 shadow-2xl relative">
+              <section class="mx-auto w-full sm:w-auto h-full flex flex-col sm:flex-col"> <!-- remove max-w-2x -->
+                <h2 class="text-2xl sm:text-4xl text-center tracking-wide font-extrabold circular-font leading-loose mb-2 dark:text-gray-100">{{project.name}}</h2>
+                <div class="h-full flex flex-col sm:flex-row">
+                  <div class="h-100 shadow-2xl relative mb-5 sm:mb-0">
 
                     <!-- large image on slides -->
                     <div v-for="(image, key) in project.images"  :key="key" class="mySlides hidden">
@@ -50,16 +50,16 @@
                     <br>
                     <br>
                     
-                    <div class="flex sm:flex-row">
-                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Tech Used: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-green-600 px-1 sm:px-2 rounded text-gray-100 sm:mr-3 sm:mb-2"  v-for="(tech_val, key) in project.tech" :key="key" >{{tech_val}}</span></div>
+                    <div v-if="project.tech && project.tech.length > 0" class="sm:flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Tech Used: </span><div class="sm:flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="inline-block w-max bg-green-600 px-1 sm:px-2 rounded text-gray-100 mr-2 mb-2 sm:mr-3 sm:mb-2"  v-for="(tech_val, key) in project.tech" :key="key" >{{tech_val}}</span></div>
                     </div>
                     <br>
-                    <div class="flex sm:flex-row">
-                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Platforms: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-red-600 px-1 sm:px-2 rounded text-gray-100 sm:mr-3 sm:mb-2" v-for="(platform, key) in project.platforms" :key="key">{{platform}}</span></div>
+                    <div v-if="project.platforms && project.platforms.length > 0" class="sm:flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Platforms: </span><div class="sm:flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="inline-block w-max bg-red-600 px-1 sm:px-2 rounded text-gray-100 mr-2 mb-2 sm:mr-3 sm:mb-2" v-for="(platform, key) in project.platforms" :key="key">{{platform}}</span></div>
                     </div>
                     <br>
-                    <div class="flex sm:flex-row">
-                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Languages: </span><div class="flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="bg-blue-600 px-1 sm:px-2 rounded text-gray-100 sm:mr-3 sm:mb-2" v-for="(language, key) in project.languages" :key="key">{{language}}</span></div>
+                    <div v-if="project.languages && project.languages.length > 0" class="sm:flex sm:flex-row">
+                      <span class="dark:text-gray-200 sm:whitespace-nowrap">Languages: </span><div class="sm:flex sm:flex-row sm:flex-wrap sm:ml-2"><span class="inline-block w-max bg-blue-600 px-1 sm:px-2 rounded text-gray-100 mr-2 mb-2 sm:mr-3 sm:mb-2" v-for="(language, key) in project.languages" :key="key">{{language}}</span></div>
                     </div>
 
                     
