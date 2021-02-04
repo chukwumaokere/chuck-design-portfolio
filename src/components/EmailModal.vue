@@ -43,7 +43,7 @@
                 </div>
                 <div class="h-48 pb-5">
                     <textarea
-                        class="flex form-textarea box-border w-full h-full sm:h-full placeholder-gray-400 dark:placeholder-gray-400 dark:bg-gray-600 dark:border-transparent dark:focus:border-gray-800 dark:text-white  border rounded-xl focus:outline-none focus:border-indigo-300 px-4 transition ease-in duration-200 focus:shadow-outline focus:shadow-lg active:shadow-lg"
+                        class="p-2 sm:p-5 flex form-textarea box-border w-full h-full sm:h-full placeholder-gray-400 dark:placeholder-gray-400 dark:bg-gray-600 dark:border-transparent dark:focus:border-gray-800 dark:text-white  border rounded-xl focus:outline-none focus:border-indigo-300 px-4 transition ease-in duration-200 focus:shadow-outline focus:shadow-lg active:shadow-lg"
                         placeholder="Message: I dont know, something like 'Hey! Lets work together sometime! My company is looking for a product designer and you'd be great for the role! Contact me @ ....' Put your own spin on it!"
                         id="body"
                         
@@ -75,8 +75,8 @@
 const formData = require('form-data');
 const Mailgun = require('mailgun.js');
 const mailgun = new Mailgun(formData);
-//need mailgun client
-//need domain
+//add mailgun info here
+//add mailgun info here
 import Swal from 'sweetalert2'
 
 export default {
