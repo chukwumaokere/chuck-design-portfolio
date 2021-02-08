@@ -75,8 +75,8 @@
 const formData = require('form-data');
 const Mailgun = require('mailgun.js');
 const mailgun = new Mailgun(formData);
-//add mailgun info here
-//add mailgun info here
+const mg = mailgun.client({username: process.env.VUE_APP_MG_USERNAME, key: process.env.VUE_APP_MG_API_KEY})
+const dm = process.env.VUE_APP_MG_DOMAIN;
 import Swal from 'sweetalert2'
 
 export default {
