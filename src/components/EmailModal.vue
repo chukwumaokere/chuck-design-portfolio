@@ -114,6 +114,8 @@ export default {
                     //console.log('error received', err);
                     Swal.fire('Error', `Something went wrong. Please try again.\n${err}`, 'error');
                 });
+            }else{
+                Swal.fire('Error', `Please fill out all fields to proceed.`, 'error');
             }
             
         },
