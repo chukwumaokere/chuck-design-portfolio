@@ -9,3 +9,5 @@ add HTTPS
 Push changes to design site    
 ~~Fix spacing of width of  text and my picture~~     
 ~~alt, remove prefix of directory~~    
+Add 'click to uopen in new tab' image    
+Add flex-wrap to Projects grid    
