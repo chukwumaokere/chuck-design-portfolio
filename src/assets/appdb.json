@@ -55,11 +55,11 @@
 		"placeholder_img": "images/project-images-unsorted/mva-mobile-app-test-result.png", 
 		"name": "MVA Diagnostics App",
 		"desc": "A service mobile app for MVA Diagnostics to log their syringes intake and run fluid tests using native barcode scanning technology. It's an Angular Web app running in Flutter using a web view client. An early take on the hybrid app idea in early 2017", 
-		"tech": ["Flutter", "Bootstrap 4"],
+		"tech": ["OCR", "Flutter", "Bootstrap 4"],
 		"platforms": ["iOS", "Android", "Mobile"],
 		"languages": ["Angular", "Web App", "PHP", "Dart"], 
 		"images": ["images/project-images-unsorted/mva-mobile-app-test-result.png", "images/project-images-unsorted/mva-mobile-app-asset-list.png", "images/project-images-unsorted/mva-mobile-app-asset-list-2.png", "images/project-images-unsorted/mva-mobile-app-create-asset-modal.png", "images/project-images-unsorted/mva-mobile-app-init-page.png", "images/project-images-unsorted/mva-mobile-app-popup.png", "images/project-images-unsorted/mva-mobile-app-result.png", "images/project-images-unsorted/mva-mobile-app-test-result-page.png"], 
-		"role_desc": "I oversaw the development of this app. The majority was offloaded to the app development team I started within the company with 2 other developers. It was the start of Boru's app development team",
+		"role_desc": "I oversaw the development of this app. I was in charge of integrating an OCR engine using an API and demonstrating the proof of concept. The client needed to read characters from a metal plate to quickly facilitate data entry. OCR Space was the API provider. The majority was offloaded to the app development team I started within the company with 2 other developers. It was the start of Boru's app development team.",
 		"site_url": {
 			"apple": "https://apps.apple.com/ae/app/xqohm/id1486121327", 
 			"android": "https://play.google.com/store/apps/details?id=com.boruapps.mva&hl=en_US&gl=US"
