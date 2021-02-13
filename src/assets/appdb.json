@@ -506,7 +506,7 @@
 		"platforms": ["Desktop","Mobile","Tablet","Web App", "Mobile"],
 		"languages": ["JavaScript", "HTML", "CSS"], 
 		"images": ["images/project-images-unsorted/tldr-main.png", "images/project-images-unsorted/tldr-main-2.png"], 
-		"role_desc": "Solo passsion project",
+		"role_desc": "Solo passion project",
 		"site_url": {
 			"android": "",
 			"apple": "",
@@ -515,6 +515,25 @@
 		"git_repo": "https://github.com/chukwumaokere/tldr", 
 		"id": 27,
 		"show":0,
+        "recent":1
+	},
+	{
+		"placeholder_img": "images/project-images-unsorted/choss-main-game-1.png", 
+		"name": "Chess On Stream",
+		"desc": "Chess On Stream or CHOSS is an online interactive game for Twitch and YouTube live streams that gives the streamer the ability to play with their chat and increase chat interaction on every stream. Whether they're playing the game between other games or working on their chess skills, the streamer can play along any ranked player as long as they're in the chat and ready to play!", 
+		"tech": ["Lottie", "Vue", "tmi.js", "SweetAlert 2", "Mailgun", "chess.js", "chessboard.js", "chart.js", "Tailwind CSS"],
+		"platforms": ["Desktop","Mobile","Tablet","Web App", "Mobile"],
+		"languages": ["Vue 3", "HTML", "CSS", "PHP"], 
+		"images": ["images/project-images-unsorted/choss-main-game-1.png", "images/project-images-unsorted/choss-main-game-2.png", "images/project-images-unsorted/choss-main-game-3.png", "images/project-images-unsorted/choss-main-game-4.png", "images/project-images-unsorted/choss_web_game_over.png", "images/project-images-unsorted/choss_splash.png", "images/project-images-unsorted/choss_web_updated_1.png", "images/project-images-unsorted/choss_web_updated_2.png", "images/project-images-unsorted/choss_web_updated_3.png", "images/project-images-unsorted/choss_web_updated_4.png"], 
+		"role_desc": "Solo passion project. Since I loved Words on Stream and Gartic on Stream made by Onrizon Social Games, I took 13 days to build this from start to finish in Vue!",
+		"site_url": {
+			"android": "",
+			"apple": "",
+			"web": "https://choss.gg"
+		}, 
+		"git_repo": "https://github.com/chukwumaokere/chess-on-stream", 
+		"id": 28,
+		"show":1,
         "recent":1
 	}
 
