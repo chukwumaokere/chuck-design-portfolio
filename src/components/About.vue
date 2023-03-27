@@ -11,18 +11,18 @@
         <p class="text-base sm:text-lg text-black dark:text-gray-300">
             In my professional time, I've slowly focused in on the parts of the web development field that bring me the most enjoyment. 
             I've gained a lot of experience doing things like project managing, designing graphics, redesigning features, identifying user needs, creating intuitive experiences and developing functional prototypes. 
-            I keep my sights aligned down that path and thats how I became a Principal Designer and Solutions Architect. 
+            I keep my sights aligned down that path and thats how I became a strong Individual Contributor as well as impactful Lead Engineer.
         </p> <br>
         <p class="text-base sm:text-lg text-black dark:text-gray-300">
-            Because I love diversity in my creations, I tend to like working for a company that deals with multiple clients in different categories i.e.: Finance, Logistics, Entertainment, Food, Content Sharing, CRMs, Warehouse Management (just to name a few).
-            This gives me the best opportunity to create revolutionary designs to solve a business need!     
+            Because I love diversity in my creations, I tend to like working for a company that deals with multiple clients in different categories i.e.: Finance, Logistics, Entertainment, Food, Content Sharing, CRMs, Warehouse Management, Services (just to name a few).
+            This gives me the best opportunity to create designs to effectively solve a business' need!     
         </p> <br>
         <p class="text-base sm:text-lg text-black dark:text-gray-300">
-            In my spare time, I have my home office set up as a record studio and I play 7 instruments, so I love playing along and covering my favorite songs. I also teach web development and web design to keep my skills sharp, continue learning and to pay forward the amazing opportunities that I've received while working in the field.
-            I also like to study machine learning and AI development because I think one day we can utilize it in the web development sphere for more than just algorithmic engagement, but additionally to help innovate in more engaging and intuitive design ideologies.
+            In my spare time, I have my home office set up as a record studio and I play 7 instruments, so I love playing along and covering my favorite songs. I also teach software engineering and web design to keep my skills sharp, continue learning and to pay forward the amazing opportunities that I've received while working in the field.
+            I also like to study machine learning and AI development because I think one day we can utilize it in the tech sphere for more than just improving engagement, but additionally to help innovate in more engaging and intuitive evolutions in how we utilize technology to improve our society.
         </p> <br>
         <p class="text-base sm:text-lg text-black dark:text-gray-300">
-            In short, I'm just a web developer seeking an opportunity to use my capabilitites to revolutionize the World Wide Web. We can discuss the revolution over a cup of coffee; isn't that how most revolutions start anyway?
+            In short, I'm just a software engineer seeking an opportunity to use my capabilitites to help revolutionize the tech world. We can discuss the revolution over a cup of coffee; isn't that how most revolutions start anyway?
         </p> 
     </div>
 </template>

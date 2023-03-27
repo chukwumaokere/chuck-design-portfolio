@@ -4,13 +4,14 @@
             <div class="landingL sm:flex-none sm:w-1/2">
                 <h1 class="circular-font text-3xl sm:text-4xl dark:text-white">Chuck Okere.</h1>
                 <p class="text-xl sm:text-xl text-gray-500 dark:text-gray-400">Hi, my name is Chuck Okere.</p> 
-                <p class="text-xl pt-5 sm:pt-5 sm:text-xl text-gray-500 dark:text-gray-400 ">I can be your <span class="text-blue-500">UI/UX Designer</span>, <span class="text-purple-400"> Product Designer</span>, <span class="text-green-500">Full-Stack Developer</span>, and <span class="text-red-400">Solutions Architect</span>.</p>
+                <p class="text-xl pt-5 sm:pt-5 sm:text-xl text-gray-500 dark:text-gray-400 ">I can be your <span class="text-green-500">Full-Stack Engineer</span>, <span class="text-blue-500">UI/UX Designer</span>, and <span class="text-red-400">Solutions Architect</span>.</p>
                 <p class="text-base pt-5 sm:pt-5 sm:text-xl text-gray-500 dark:text-gray-400"> I excel in:</p>
                 <ul class="list-disc pt-3 sm:pt-3 sm:text-xl text-gray-500 dark:text-gray-400"> 
                     <li class="ml-10">Clean Code</li>
                     <li class="ml-10">Interaction Design</li>
                     <li class="ml-10">Accessible Design</li>
                     <li class="ml-10">Business Solutions</li>
+                    <li class="ml-10">Improving Developer Experience</li>
                 </ul>
                 <div class="flex justify-center pt-10 sm:pt-24 sm:block ">
                     <a href="/documents/Stylized-Resume.pdf" @click="downloadCV" class="flex place-self-center sm:float-left px-4 py-3 sm:flex sm:px-5 sm:py-4 hover:shadow-lg shadow-md rounded transition ease-in duration-200 focus:outline-none hover:text-white text-white text-xl bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
